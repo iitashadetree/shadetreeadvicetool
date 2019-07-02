@@ -1,0 +1,103 @@
+/*----------------------------------------------
+css settings for HTML div exactCenter 
+------------------------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+ body{background-color: #E2E1DF; color: #626262;}
+
+span{
+color:red;
+}
+img {
+    
+}
+a {
+    color:#FB9106; font-size: 14px;
+}
+h2{
+background-color: #FEFFED;
+text-align:center;
+border-radius: 10px 10px 0 0;
+
+padding: 0px;
+font-size: 12px;
+font-weight: normal;
+}
+
+hr{
+border:0;
+border-bottom:1px solid #ccc;
+margin: 10px -40px;
+margin-bottom: 30px;
+}
+
+#login{
+   position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	width:380px;
+	border-radius: 0px;
+	font-family:raleway;
+	border: 2px solid #ccc;
+	padding: 10px 40px 25px;
+	background-color: #FFFFFF;
+}
+ 
+#loginLogo{
+	float:left;
+	
+	margin-left: -41px;
+	margin-top: -41px;
+
+}
+
+input[type=text],input[type=password]{
+width:50%;
+padding: 10px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 12px;
+font-family:raleway;
+} 
+
+input[type=submit]{
+width: 18%;
+background-color:#4C9ED9;
+color: white;
+border: 0px solid #44536A;
+padding: 10px;
+font-size:15px;
+cursor:pointer;
+border-radius: 0px;
+margin-bottom: 15px;
+float: right;
+}
+#profile{
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7;
+}
+
+#logout{
+float:right;
+padding:5px;
+border:dashed 1px gray;
+}
+
+a{
+text-decoration:none;
+color: cornflowerblue;
+}
+
+i{
+color: cornflowerblue;
+}
+/*-----------------------------------------------------------------
+css settings for right side advertisement
+------------------------------------------------------------------*/
+#formget{
+float:right;
+}	

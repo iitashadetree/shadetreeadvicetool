@@ -1,0 +1,6 @@
+[25-Jul-2017 10:06:29 America/New_York] PHP Warning:  fopen(): Filename cannot be empty in /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php on line 17
+[25-Jul-2017 10:06:29 America/New_York] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php on line 44
+[25-Jul-2017 10:06:29 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php:17) in /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php on line 48
+[25-Jul-2017 10:06:56 America/New_York] PHP Warning:  fopen(): Filename cannot be empty in /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php on line 17
+[25-Jul-2017 10:06:56 America/New_York] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php on line 44
+[25-Jul-2017 10:06:56 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php:17) in /home/shadetreeadvice/public_html/admin/scores/editing/Popup/uploader.php on line 48

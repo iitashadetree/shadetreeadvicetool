@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document @metajua'KCL'*/
+body { font-family:Verdana, Geneva, sans-serif;
+	 margin:0; 
+	 padding:0; color: gray;}
+h1	{color:#000;
+	 font-family:Verdana, Geneva, sans-serif;
+	 font-size:12px;
+	 font-weight: normal;
+     float:center;}
+
+h7    {font-family:Verdana, Geneva, sans-serif;
+     font-size:14px; font-weight:normal; color: #F27602;}
+
+a {color:#F00; text-decoration:none;} 
+#wrapper {position:relative;
+			width:100%;  
+			}
+
+			
+#header-top div {
+		padding:0px;
+		float:left;
+		margin-top:0px;
+		    border-bottom: 0px;
+		height:40px;
+        border-bottom: 1px solid #bbb;
+	}
+	#logo {
+		width:60%;
+		margin-left:0px;
+		
+		
+	}
+	#topMain {
+		margin-left:5px;
+        margin-right: 5px;
+		width:40%;
+		position:absolute;
+		right:0px;
+		
+		font-family:Georgia, "Times New Roman", Times, serif;
+		text-align:right;
+        font-style: normal;
+        border: 0px;
+        
+	
+	}						
+
+	#main-wrapper { float:left; 
+		width:100%;
+		margin:0px auto;
+	/*	border:1px solid #bbb;  */
+		padding:0px;
+	}
+	#header {
+		margin-top:5px;
+		margin-left:10px;
+		margin-right:10px;
+	/*	border:1px solid #bbb;  */
+		height:20px;
+		padding:0px;
+	}
+	#content {
+		margin-top:0px;
+		padding-bottom:0px;
+        width: 100%;
+	}
+	#content div {
+		padding:0px;
+		float:left;
+	}
+	#mapdiv{
+        width: 100%;
+    }
+	
+	#footer {
+		float:center;
+		margin-top:10px;
+		margin-bottom:0px;
+		padding:0px;
+		border:0px solid #bbb;
+		width:90%;
+        text-align:center;
+	}
+	#bottom {
+		clear:both; /* ends column devision */
+		text-align:center;
+	}
+   
+#tablecontent th{
+    font-weight: bolder;
+    font-family:Verdana, Geneva, sans-serif;
+     font-size:13px;
+     font-weight: normal;
+     float:center;
+}
+ td {
+   font-weight: normal;
+    font-family:Verdana, Geneva, sans-serif;
+     font-size:12px;
+     font-weight: normal;
+     float:center; 
+}
+#tablecontent a { 
+    color: #548dc4;
+    text-decoration: none;
+}

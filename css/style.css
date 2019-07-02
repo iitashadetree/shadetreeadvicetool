@@ -1,0 +1,57 @@
+
+.contentH{
+    background: #EC7C30;
+    opacity: 0.9;
+    float:left;
+    width:100%;
+    height: 550px;
+}
+
+#homeCotent{
+    background: #fff;
+
+    float:left;
+    width:100%;
+    hight: 450px;
+}
+.homeIcons{
+    background: #F2F2F2;
+    float:left;
+    width:31%;
+    height: 288px;
+    margin-right:20px;
+    border-radius:50%;
+    margin-top: 102px;
+}
+#homeIcon1{
+    float:left;
+    margin-top: 55px;
+margin-left: 48px;
+}
+#homeIcon2{
+    float:left;
+margin-top: 35px;
+margin-left: 68px;
+}
+#homeIcon3{
+    float:left;
+    margin-top: 55px;
+margin-left: 120px;
+}
+#homefooter{
+    background: green;
+    flat:left;
+     color: blue;
+     text-decoration: none;
+     text-align: center;
+     font-size: 15px;
+}
+#imgHolder{
+    float: left;
+    margin-left: 374px;
+margin-top: 10px;
+}
+#homeCotent #homefooter img {
+vertical-align: middle;
+margin-left: 60px;
+}

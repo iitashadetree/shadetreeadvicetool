@@ -1,0 +1,15 @@
+@import url('http://fonts.googleapis.com/css?family=Cantora+One');
+table { border-collapse: collapse; border-spacing: 0; }
+img { border: 0; max-width: 100%;}
+.details img { border: 0; max-width: 100%;margin-bottom: 20px;margin-top: 20px;margin-left: 5px; }
+/* main page */
+#w {
+  display: block;
+  width: 900px;
+  margin: 0 auto;
+  background: none;
+}
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; } 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }

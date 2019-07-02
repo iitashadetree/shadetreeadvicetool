@@ -1,0 +1,271 @@
+id_score,Subgroup,Attribute_user,attribute_system,Tree_user,tree_system,Estimate,qSE
+,medium,High Temperature,NULL,C. controversa,NULL,4.476098725,0.13229679
+,medium,High Temperature,NULL,C. camphora ,NULL,4.107558172,0.138951277
+,medium,High Temperature,NULL,D. longan,NULL,3.796839466,0.173731578
+,medium,High Temperature,NULL,B. polycarpa,NULL,3.790978291,0.187305814
+,medium,High Temperature,NULL,A. heterophyllus,NULL,3.730992296,0.163050852
+,medium,High Temperature,NULL,M. indica,NULL,3.102409801,0.092408249
+,medium,High Temperature,NULL,L. chinensis,NULL,3.254436063,0.171337597
+,medium,High Temperature,NULL,M. azedarach,NULL,3.262920529,0.233238964
+,medium,High Temperature,NULL,S. wallichii,NULL,2.966563843,0.093610187
+,medium,High Temperature,NULL,T. ciliata,NULL,2.82973798,0.121508536
+,medium,High Temperature,NULL,C. cerasoides,NULL,2.834226107,0.126178138
+,medium,High Temperature,NULL,M. tetracoccus,NULL,2.827174272,0.12335687
+,medium,High Temperature,NULL,S. szemaoense,NULL,2.775418242,0.121342743
+,medium,High Temperature,NULL,M. integrifolia,NULL,2.755338474,0.117796228
+,medium,High Temperature,NULL,C. calathiformis,NULL,2.702809201,0.118715675
+,medium,High Temperature,NULL,M. baillonii,NULL,2.564680516,0.169096603
+,medium,High Temperature,NULL,A. kalkora,NULL,2.452161359,0.217424785
+,medium,High Temperature,NULL,L. leucocephala,NULL,2.402450295,0.205402885
+,medium,High Temperature,NULL,B. alnoides,NULL,2.108389424,0.152876475
+,medium,High Temperature,NULL,Litsea sp.,NULL,1.98393345,0.120495541
+,medium,High Temperature,NULL,A. villosa,NULL,2.007781328,0.150869315
+,medium,High Temperature,NULL,F. hispida,NULL,1.915974733,0.135097058
+,medium,High Temperature,NULL,E. groffii,NULL,1.892954677,0.127095609
+,medium,High Temperature,NULL,M. balbisiana,NULL,1.763120466,0.098645813
+,medium,High Temperature,NULL,D. kaki var. silvestris,NULL,1.771639661,0.148210511
+,medium,High Temperature,NULL,D. regia,NULL,1.627304019,0.207853717
+,medium,High Temperature,NULL,P. guajava,NULL,1.354007496,0.107721922
+,medium,High Temperature,NULL,M. basjoo,NULL,1.224122647,0.173456216
+,medium,High Temperature,NULL,A. yunnanensis,NULL,1.14780583,0.189842336
+,medium,High Temperature,NULL,P. emblica,NULL,0,0.150960503
+,medium,Cold Temperature,NULL,C. controversa,NULL,3.154200736,0.138202561
+,medium,Cold Temperature,NULL,D. longan,NULL,3.088664678,0.196424366
+,medium,Cold Temperature,NULL,C. camphora ,NULL,2.656260022,0.143900941
+,medium,Cold Temperature,NULL,L. chinensis,NULL,2.7153697,0.230162895
+,medium,Cold Temperature,NULL,A. heterophyllus,NULL,2.395446437,0.166058521
+,medium,Cold Temperature,NULL,M. integrifolia,NULL,2.213506613,0.135990581
+,medium,Cold Temperature,NULL,M. indica,NULL,2.055349403,0.101836114
+,medium,Cold Temperature,NULL,S. szemaoense,NULL,2.080827231,0.148011664
+,medium,Cold Temperature,NULL,C. calathiformis,NULL,2.003463812,0.1327392
+,medium,Cold Temperature,NULL,B. polycarpa,NULL,2.124274735,0.19744733
+,medium,Cold Temperature,NULL,S. wallichii,NULL,1.928377619,0.102934096
+,medium,Cold Temperature,NULL,M. tetracoccus,NULL,1.96233239,0.130411145
+,medium,Cold Temperature,NULL,M. baillonii,NULL,1.887712067,0.201247769
+,medium,Cold Temperature,NULL,Litsea sp.,NULL,1.433457358,0.132210151
+,medium,Cold Temperature,NULL,L. leucocephala,NULL,1.564558178,0.231880332
+,medium,Cold Temperature,NULL,C. cerasoides,NULL,1.277165713,0.146172171
+,medium,Cold Temperature,NULL,E. groffii,NULL,1.216857236,0.140843431
+,medium,Cold Temperature,NULL,F. hispida,NULL,1.124839193,0.144945073
+,medium,Cold Temperature,NULL,T. ciliata,NULL,1.089921925,0.13172033
+,medium,Cold Temperature,NULL,P. guajava,NULL,0.916587038,0.105164441
+,medium,Cold Temperature,NULL,A. villosa,NULL,0.938218704,0.168403266
+,medium,Cold Temperature,NULL,B. alnoides,NULL,0.912919142,0.172420579
+,medium,Cold Temperature,NULL,M. balbisiana,NULL,0.775572399,0.105847249
+,medium,Cold Temperature,NULL,A. yunnanensis,NULL,0.896577565,0.200929786
+,medium,Cold Temperature,NULL,D. kaki var. silvestris,NULL,0.800964971,0.160081381
+,medium,Cold Temperature,NULL,D. regia,NULL,0.947010877,0.249993602
+,medium,Cold Temperature,NULL,M. azedarach,NULL,0.744856296,0.261105373
+,medium,Cold Temperature,NULL,A. kalkora,NULL,0.640883382,0.253583802
+,medium,Cold Temperature,NULL,P. emblica,NULL,0.062589589,0.121861854
+,medium,Cold Temperature,NULL,M. basjoo,NULL,0,0.221018927
+,medium,Erosion,NULL,A. heterophyllus,NULL,2.510056667,0.172439588
+,medium,Erosion,NULL,C. camphora ,NULL,2.24724118,0.133462316
+,medium,Erosion,NULL,D. longan,NULL,2.316345533,0.176351949
+,medium,Erosion,NULL,B. polycarpa,NULL,2.104453351,0.175918562
+,medium,Erosion,NULL,S. szemaoense,NULL,1.877050381,0.125019537
+,medium,Erosion,NULL,M. baillonii,NULL,1.933029588,0.171691399
+,medium,Erosion,NULL,C. controversa,NULL,1.804353665,0.108026184
+,medium,Erosion,NULL,L. chinensis,NULL,1.811920114,0.168114733
+,medium,Erosion,NULL,S. wallichii,NULL,1.651526174,0.096075006
+,medium,Erosion,NULL,C. cerasoides,NULL,1.652193209,0.130989404
+,medium,Erosion,NULL,T. ciliata,NULL,1.622997056,0.119921912
+,medium,Erosion,NULL,M. indica,NULL,1.360205693,0.088596516
+,medium,Erosion,NULL,C. calathiformis,NULL,1.263838334,0.118975242
+,medium,Erosion,NULL,B. alnoides,NULL,1.192145804,0.147063305
+,medium,Erosion,NULL,L. leucocephala,NULL,1.16175913,0.207601283
+,medium,Erosion,NULL,A. kalkora,NULL,1.216864749,0.251581217
+,medium,Erosion,NULL,F. hispida,NULL,0.95701745,0.130299472
+,medium,Erosion,NULL,M. integrifolia,NULL,0.92231564,0.13175362
+,medium,Erosion,NULL,M. azedarach,NULL,1.06397504,0.227393679
+,medium,Erosion,NULL,P. guajava,NULL,0.803644223,0.096512179
+,medium,Erosion,NULL,M. tetracoccus,NULL,0.797009854,0.116554843
+,medium,Erosion,NULL,Litsea sp.,NULL,0.734677664,0.115285999
+,medium,Erosion,NULL,A. villosa,NULL,0.757416095,0.153000003
+,medium,Erosion,NULL,D. kaki var. silvestris,NULL,0.686348285,0.160073285
+,medium,Erosion,NULL,D. regia,NULL,0.701757426,0.190905297
+,medium,Erosion,NULL,M. balbisiana,NULL,0.316033034,0.099032598
+,medium,Erosion,NULL,E. groffii,NULL,0.16954154,0.133687658
+,medium,Erosion,NULL,P. emblica,NULL,0.100924242,0.101519358
+,medium,Erosion,NULL,M. basjoo,NULL,0.009151869,0.171429196
+,medium,Erosion,NULL,A. yunnanensis,NULL,0,0.188284279
+,medium,Soil Moisture,NULL,B. polycarpa,NULL,3.185497583,0.204761311
+,medium,Soil Moisture,NULL,C. controversa,NULL,2.866427811,0.118401445
+,medium,Soil Moisture,NULL,A. heterophyllus,NULL,2.922276931,0.166388931
+,medium,Soil Moisture,NULL,M. balbisiana,NULL,2.608114177,0.101227938
+,medium,Soil Moisture,NULL,C. camphora ,NULL,2.279004069,0.122766932
+,medium,Soil Moisture,NULL,M. basjoo,NULL,2.226079558,0.15519967
+,medium,Soil Moisture,NULL,M. indica,NULL,2.000019255,0.089808015
+,medium,Soil Moisture,NULL,F. hispida,NULL,2.011202651,0.133786155
+,medium,Soil Moisture,NULL,S. wallichii,NULL,1.872957394,0.092154476
+,medium,Soil Moisture,NULL,C. cerasoides,NULL,1.952569149,0.138588444
+,medium,Soil Moisture,NULL,D. longan,NULL,1.942412664,0.15578555
+,medium,Soil Moisture,NULL,T. ciliata,NULL,1.831822046,0.125133878
+,medium,Soil Moisture,NULL,S. szemaoense,NULL,1.818080436,0.118198779
+,medium,Soil Moisture,NULL,L. chinensis,NULL,1.852589624,0.170575377
+,medium,Soil Moisture,NULL,M. baillonii,NULL,1.680311885,0.166364572
+,medium,Soil Moisture,NULL,M. integrifolia,NULL,1.529139653,0.124860809
+,medium,Soil Moisture,NULL,M. azedarach,NULL,1.700206202,0.22005329
+,medium,Soil Moisture,NULL,M. tetracoccus,NULL,1.480583601,0.122322364
+,medium,Soil Moisture,NULL,L. leucocephala,NULL,1.580525733,0.210371667
+,medium,Soil Moisture,NULL,A. villosa,NULL,1.396815362,0.148360147
+,medium,Soil Moisture,NULL,A. kalkora,NULL,1.59772493,0.259915416
+,medium,Soil Moisture,NULL,D. kaki var. silvestris,NULL,1.270383977,0.153095993
+,medium,Soil Moisture,NULL,P. guajava,NULL,1.010837678,0.101491505
+,medium,Soil Moisture,NULL,C. calathiformis,NULL,0.979074289,0.132417485
+,medium,Soil Moisture,NULL,E. groffii,NULL,0.881508587,0.125807417
+,medium,Soil Moisture,NULL,A. yunnanensis,NULL,0.812154878,0.173697632
+,medium,Soil Moisture,NULL,B. alnoides,NULL,0.783721737,0.160044576
+,medium,Soil Moisture,NULL,Litsea sp.,NULL,0.664124811,0.124225589
+,medium,Soil Moisture,NULL,D. regia,NULL,0.814438404,0.208133516
+,medium,Soil Moisture,NULL,P. emblica,NULL,0,0.118547152
+,medium,Mulch,NULL,B. polycarpa,NULL,2.402265526,0.181822221
+,medium,Mulch,NULL,A. kalkora,NULL,2.216415837,0.21996569
+,medium,Mulch,NULL,T. ciliata,NULL,1.97257266,0.119971613
+,medium,Mulch,NULL,C. camphora ,NULL,1.938635988,0.123767091
+,medium,Mulch,NULL,F. hispida,NULL,1.936397521,0.134568193
+,medium,Mulch,NULL,C. controversa,NULL,1.86021905,0.103955381
+,medium,Mulch,NULL,D. longan,NULL,1.84732487,0.152462523
+,medium,Mulch,NULL,A. heterophyllus,NULL,1.803638861,0.15658596
+,medium,Mulch,NULL,C. cerasoides,NULL,1.722273664,0.128435062
+,medium,Mulch,NULL,S. wallichii,NULL,1.459588301,0.090683292
+,medium,Mulch,NULL,D. kaki var. silvestris,NULL,1.520264359,0.141956761
+,medium,Mulch,NULL,L. leucocephala,NULL,1.607045874,0.186581958
+,medium,Mulch,NULL,M. indica,NULL,1.395945694,0.088181238
+,medium,Mulch,NULL,L. chinensis,NULL,1.521338697,0.15855452
+,medium,Mulch,NULL,M. azedarach,NULL,1.587153996,0.203350333
+,medium,Mulch,NULL,M. baillonii,NULL,1.48579553,0.16711126
+,medium,Mulch,NULL,M. tetracoccus,NULL,1.312678399,0.12213879
+,medium,Mulch,NULL,C. calathiformis,NULL,1.267098468,0.120888333
+,medium,Mulch,NULL,A. yunnanensis,NULL,1.317650409,0.157698567
+,medium,Mulch,NULL,A. villosa,NULL,1.232568136,0.147633069
+,medium,Mulch,NULL,Litsea sp.,NULL,1.072250349,0.114472682
+,medium,Mulch,NULL,P. guajava,NULL,0.974294686,0.092840977
+,medium,Mulch,NULL,S. szemaoense,NULL,0.925535048,0.115081297
+,medium,Mulch,NULL,B. alnoides,NULL,0.923421336,0.150470431
+,medium,Mulch,NULL,M. integrifolia,NULL,0.627199051,0.123022454
+,medium,Mulch,NULL,E. groffii,NULL,0.6241161,0.127775652
+,medium,Mulch,NULL,M. balbisiana,NULL,0.418727585,0.097216653
+,medium,Mulch,NULL,P. emblica,NULL,0.391326569,0.096820129
+,medium,Mulch,NULL,D. regia,NULL,0.389350733,0.212014595
+,medium,Mulch,NULL,M. basjoo,NULL,0,0.166973726
+,medium,Root Competition,NULL,P. emblica,NULL,3.308229832,0.097861537
+,medium,Root Competition,NULL,D. regia,NULL,3.389286892,0.202900365
+,medium,Root Competition,NULL,A. villosa,NULL,3.112970239,0.154224833
+,medium,Root Competition,NULL,A. yunnanensis,NULL,3.018141475,0.160917765
+,medium,Root Competition,NULL,E. groffii,NULL,2.937133405,0.125651738
+,medium,Root Competition,NULL,C. controversa,NULL,2.722062469,0.104138719
+,medium,Root Competition,NULL,M. integrifolia,NULL,2.76430765,0.127545596
+,medium,Root Competition,NULL,P. guajava,NULL,2.600228794,0.094027042
+,medium,Root Competition,NULL,S. wallichii,NULL,2.555372665,0.090891876
+,medium,Root Competition,NULL,B. polycarpa,NULL,2.641107357,0.165802361
+,medium,Root Competition,NULL,M. basjoo,NULL,2.571454016,0.148781309
+,medium,Root Competition,NULL,F. hispida,NULL,2.539087946,0.133272074
+,medium,Root Competition,NULL,M. azedarach,NULL,2.636588838,0.214698589
+,medium,Root Competition,NULL,S. szemaoense,NULL,2.419017715,0.118281264
+,medium,Root Competition,NULL,Litsea sp.,NULL,2.412930347,0.116817343
+,medium,Root Competition,NULL,M. tetracoccus,NULL,2.399068968,0.123205999
+,medium,Root Competition,NULL,M. indica,NULL,2.308330144,0.089411197
+,medium,Root Competition,NULL,C. camphora ,NULL,2.35337822,0.117964703
+,medium,Root Competition,NULL,L. leucocephala,NULL,2.518938996,0.215502774
+,medium,Root Competition,NULL,D. kaki var. silvestris,NULL,2.375859105,0.144715864
+,medium,Root Competition,NULL,M. balbisiana,NULL,2.196003864,0.092778801
+,medium,Root Competition,NULL,A. kalkora,NULL,2.387811113,0.239989515
+,medium,Root Competition,NULL,T. ciliata,NULL,1.928162388,0.124399747
+,medium,Root Competition,NULL,A. heterophyllus,NULL,1.871795866,0.157491294
+,medium,Root Competition,NULL,C. cerasoides,NULL,1.8050506,0.130659015
+,medium,Root Competition,NULL,D. longan,NULL,1.826936024,0.160457272
+,medium,Root Competition,NULL,M. baillonii,NULL,1.833562749,0.173332615
+,medium,Root Competition,NULL,L. chinensis,NULL,1.773610501,0.176394058
+,medium,Root Competition,NULL,C. calathiformis,NULL,1.369222454,0.134470397
+,medium,Root Competition,NULL,B. alnoides,NULL,1.274167316,0.165389111
+,medium,Yield,NULL,P. emblica,NULL,2.399440407,0.09070256
+,medium,Yield,NULL,C. controversa,NULL,2.258676798,0.101500053
+,medium,Yield,NULL,M. basjoo,NULL,2.322153365,0.161723525
+,medium,Yield,NULL,D. regia,NULL,2.351200033,0.183658186
+,medium,Yield,NULL,M. integrifolia,NULL,2.215431418,0.11895996
+,medium,Yield,NULL,D. kaki var. silvestris,NULL,2.230274278,0.147617686
+,medium,Yield,NULL,A. villosa,NULL,2.20526855,0.153646584
+,medium,Yield,NULL,M. azedarach,NULL,2.289941437,0.219958376
+,medium,Yield,NULL,M. indica,NULL,2.02459093,0.089541234
+,medium,Yield,NULL,L. leucocephala,NULL,2.217763064,0.199784098
+,medium,Yield,NULL,A. yunnanensis,NULL,2.133944698,0.170228828
+,medium,Yield,NULL,P. guajava,NULL,1.903495478,0.093339493
+,medium,Yield,NULL,C. camphora ,NULL,1.927377542,0.116358323
+,medium,Yield,NULL,M. balbisiana,NULL,1.869594669,0.087606707
+,medium,Yield,NULL,E. groffii,NULL,1.923962222,0.122475494
+,medium,Yield,NULL,Litsea sp.,NULL,1.82407845,0.108047722
+,medium,Yield,NULL,C. cerasoides,NULL,1.741902964,0.121290234
+,medium,Yield,NULL,A. heterophyllus,NULL,1.746084725,0.155050259
+,medium,Yield,NULL,B. polycarpa,NULL,1.747258647,0.161675977
+,medium,Yield,NULL,S. szemaoense,NULL,1.635525243,0.118481534
+,medium,Yield,NULL,M. tetracoccus,NULL,1.510936518,0.119987283
+,medium,Yield,NULL,F. hispida,NULL,1.514723379,0.130299515
+,medium,Yield,NULL,S. wallichii,NULL,1.378742517,0.090486619
+,medium,Yield,NULL,L. chinensis,NULL,1.501503282,0.157781117
+,medium,Yield,NULL,D. longan,NULL,1.369903959,0.152186006
+,medium,Yield,NULL,T. ciliata,NULL,1.189217284,0.124187187
+,medium,Yield,NULL,A. kalkora,NULL,1.117779543,0.201523239
+,medium,Yield,NULL,M. baillonii,NULL,1.033372024,0.170394942
+,medium,Yield,NULL,B. alnoides,NULL,0.929692348,0.150895198
+,medium,Yield,NULL,C. calathiformis,NULL,0.615725263,0.131954712
+,medium,Weed,NULL,A. heterophyllus,NULL,2.939037834,0.1759799
+,medium,Weed,NULL,D. longan,NULL,2.934513588,0.191438584
+,medium,Weed,NULL,L. chinensis,NULL,2.83289901,0.193848284
+,medium,Weed,NULL,B. polycarpa,NULL,2.78503575,0.191082571
+,medium,Weed,NULL,C. camphora ,NULL,2.544812518,0.133300239
+,medium,Weed,NULL,C. calathiformis,NULL,2.387363974,0.133197441
+,medium,Weed,NULL,S. wallichii,NULL,2.195647312,0.096682638
+,medium,Weed,NULL,C. controversa,NULL,2.156984115,0.106548311
+,medium,Weed,NULL,T. ciliata,NULL,2.064318952,0.126654911
+,medium,Weed,NULL,M. indica,NULL,1.713654214,0.088336309
+,medium,Weed,NULL,M. tetracoccus,NULL,1.674260102,0.119945552
+,medium,Weed,NULL,M. baillonii,NULL,1.674075518,0.163051691
+,medium,Weed,NULL,S. szemaoense,NULL,1.479930604,0.117911928
+,medium,Weed,NULL,C. cerasoides,NULL,1.492539927,0.124867654
+,medium,Weed,NULL,F. hispida,NULL,1.467172711,0.133293104
+,medium,Weed,NULL,M. azedarach,NULL,1.609003746,0.216765979
+,medium,Weed,NULL,M. integrifolia,NULL,1.406850817,0.123364709
+,medium,Weed,NULL,L. leucocephala,NULL,1.537397413,0.195781445
+,medium,Weed,NULL,A. kalkora,NULL,1.504437546,0.2226397
+,medium,Weed,NULL,Litsea sp.,NULL,1.0890771,0.113605456
+,medium,Weed,NULL,B. alnoides,NULL,1.132659961,0.150669819
+,medium,Weed,NULL,D. kaki var. silvestris,NULL,1.05783824,0.146424866
+,medium,Weed,NULL,P. guajava,NULL,0.87126451,0.097556025
+,medium,Weed,NULL,A. villosa,NULL,0.919071513,0.153102831
+,medium,Weed,NULL,M. balbisiana,NULL,0.774606418,0.098383855
+,medium,Weed,NULL,E. groffii,NULL,0.779853943,0.126469564
+,medium,Weed,NULL,A. yunnanensis,NULL,0.521620945,0.173017861
+,medium,Weed,NULL,P. emblica,NULL,0.025419916,0.110251123
+,medium,Weed,NULL,D. regia,NULL,0.138543759,0.237949433
+,medium,Weed,NULL,M. basjoo,NULL,0,0.187615168
+,medium,Economic Benefits,NULL,L. chinensis,NULL,4.800428244,0.275171617
+,medium,Economic Benefits,NULL,M. integrifolia,NULL,4.601506463,0.204843466
+,medium,Economic Benefits,NULL,D. longan,NULL,4.637098579,0.257017871
+,medium,Economic Benefits,NULL,M. indica,NULL,4.356968652,0.14368753
+,medium,Economic Benefits,NULL,A. heterophyllus,NULL,4.070394479,0.206289415
+,medium,Economic Benefits,NULL,C. controversa,NULL,3.375295597,0.128498522
+,medium,Economic Benefits,NULL,M. balbisiana,NULL,2.840608059,0.106671605
+,medium,Economic Benefits,NULL,T. ciliata,NULL,2.845849426,0.143350978
+,medium,Economic Benefits,NULL,D. kaki var. silvestris,NULL,2.628616108,0.161519539
+,medium,Economic Benefits,NULL,C. camphora ,NULL,2.453681584,0.130419257
+,medium,Economic Benefits,NULL,M. basjoo,NULL,2.428787752,0.163311285
+,medium,Economic Benefits,NULL,B. alnoides,NULL,2.404770808,0.16085281
+,medium,Economic Benefits,NULL,P. guajava,NULL,2.281896102,0.105598484
+,medium,Economic Benefits,NULL,P. emblica,NULL,2.231180887,0.098271765
+,medium,Economic Benefits,NULL,M. baillonii,NULL,1.936878151,0.175178673
+,medium,Economic Benefits,NULL,Litsea sp.,NULL,1.66355643,0.122395609
+,medium,Economic Benefits,NULL,B. polycarpa,NULL,1.630508169,0.178400647
+,medium,Economic Benefits,NULL,S. szemaoense,NULL,1.4954897,0.133193823
+,medium,Economic Benefits,NULL,C. cerasoides,NULL,1.476020517,0.149698354
+,medium,Economic Benefits,NULL,S. wallichii,NULL,1.250884349,0.104413833
+,medium,Economic Benefits,NULL,A. yunnanensis,NULL,1.057236922,0.178332912
+,medium,Economic Benefits,NULL,D. regia,NULL,0.952597415,0.241571249
+,medium,Economic Benefits,NULL,C. calathiformis,NULL,0.720743035,0.153800305
+,medium,Economic Benefits,NULL,F. hispida,NULL,0.718457102,0.160672176
+,medium,Economic Benefits,NULL,A. villosa,NULL,0.677995754,0.178621002
+,medium,Economic Benefits,NULL,L. leucocephala,NULL,0.571449768,0.257196898
+,medium,Economic Benefits,NULL,E. groffii,NULL,0.356675546,0.156298911
+,medium,Economic Benefits,NULL,M. azedarach,NULL,0.568523329,0.282705752
+,medium,Economic Benefits,NULL,M. tetracoccus,NULL,0.306912825,0.169585924
+,medium,Economic Benefits,NULL,A. kalkora,NULL,0,0.33185148

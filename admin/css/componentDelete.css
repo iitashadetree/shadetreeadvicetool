@@ -1,0 +1,247 @@
+/* Morph Button: Default Styles */
+
+.morph-buttonDelete {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+}
+
+.morph-buttonDelete > button {
+	position: relative;
+	pDeleteing: 0;
+	border: none;
+	background-color: #e85657;
+	color: #f9f6e5;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	line-height: 10px;
+	overflow: hidden;
+}
+
+.morph-buttonDelete.open > button {
+	pointer-events: none;
+}
+
+.morph-content {
+	pointer-events: none;
+}
+
+.morph-buttonDelete.open .morph-content {
+	pointer-events: auto;
+}
+
+/* Common styles for overlay and modal type (fixed morph) */
+.morph-button-fixedDelete,
+.morph-button-fixedDelete .morph-content {
+	width: 50px;
+	height: 20px;
+}
+
+.morph-button-fixedDelete > button {
+	z-index: 1000;
+	width: 50px;
+	height: 20px;
+	-webkit-transition: opacity 0.1s 0.5s;
+	transition: opacity 0.1s 0.5s;
+}
+
+.morph-button-fixedDelete.open > button {
+	opacity: 0;
+	-webkit-transition: opacity 0.1s;
+	transition: opacity 0.1s;
+}
+
+.morph-button-fixedDelete .morph-content {
+	position: fixed;
+	z-index: 900;
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+.morph-button-fixedDelete.open .morph-content {
+	opacity: 1;
+}
+
+.morph-button-fixedDelete .morph-content > div {
+	visibility: hidden;
+	height: 0;
+	opacity: 0;
+	-webkit-transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+	transition: opacity 0.1s, visibility 0s 0.1s, height 0s 0.1s;
+}
+
+.morph-button-fixedDelete.open .morph-content > div {
+	visibility: visible;
+	height: auto;
+	opacity: 1;
+	-webkit-transition: opacity 0.3s 0.5s;
+	transition: opacity 0.3s 0.5s;
+}
+
+.morph-button-fixedDelete.active > button {
+	z-index: 2000;
+}
+
+.morph-button-fixedDelete.active .morph-content {
+	z-index: 1900;
+}
+
+
+
+
+/* Morph Button Style: Modal */
+.morph-button-modalDelete::before {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 800;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	pointer-events: none;
+}
+
+.morph-button-modalDelete.open::before {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.morph-button-modalDelete.active::before {
+	z-index: 1800;
+}
+
+.morph-button-modalDelete .morph-content {
+	overflow: hidden;
+	-webkit-transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: opacity 0.3s 0.5s, width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+.morph-button-modalDelete.open .morph-content {
+	top: 50% !important;
+	left: 50% !important;
+	margin: -210px 0 0 -300px;
+	width: 600px;
+	height: 420px;
+	-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+	transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s, margin 0.4s 0.1s;
+}
+
+/* Colors and sizes for individual modals */
+
+
+.morph-buttonDelete.morph-button-modal-2Delete,
+.morph-buttonDelete.morph-button-modal-3 {
+	display: inline-block;
+	margin: 5px 5px;
+
+}
+
+.morph-button-modal-2Delete > button{
+background-color: transparent;
+color:#D0CECE;
+float:left;
+margin-top: 0px;
+margin-left: 0px;
+width: 75px;
+	}
+
+/*more button css*/
+.morph-button-modal-2Delete {
+pDeleteing:5px 25px; /*Delete some pDeleteing to the inside of the button*/
+background:#90224C; /*the colour of the button*/
+bckground: -webkit-gradient(linear, left top, left bottom, from(#90224C), to(#90224C));
+bckground: -webkit-linear-gradient(top, #90224C, #90224C);
+bckground: -moz-linear-gradient(top, #90224C, #90224C);
+bckground: -o-linear-gradient(top, #90224C, #90224C);
+bckground: linear-gradient(top, #90224C, #90224C);
+/*style to the text inside the button*/
+font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+color:#fff;
+font-size:1.1em;
+letter-spacing:.1em;
+font-variant:small-caps;
+/*give the corners a small curve*/
+-webkit-border-radius: 0 15px 15px 0;
+-moz-border-radius: 0 15px 15px 0;
+border-radius: 0;
+/*add a drop shadow to the button*/
+-webkit-bx-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+-moz-bx-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+bx-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+  text-decoration: none;
+  width:75px;
+  font-family:'Verdana',Arial,sans-serif;
+  font-size: 13px;
+}
+
+.morph-button-modal-2Delete:hover {
+  color:#c20b0b;
+/*reduce the spread of the shadow to give a pushed effect*/
+-webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+-moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+  text-decoration: none;
+}
+	
+/*End of more button css*/
+.morph-button-modal-2Delete .morph-content{
+	background-color: #fff;
+	color: #333;
+	font-family:'Verdana',Arial,sans-serif;
+}
+
+.morph-button-modal-2Delete.open .morph-content {
+	margin: -210px 0 0 -170px;
+	width: 250px;
+	height: 190px;
+ 
+}
+
+.morph-button-modal-2Delete.open .morph-content > div,
+.morph-button-modal-3.open .morph-content > div {
+ 	-webkit-transition: opacity 0.3s 0.3s;
+	transition: opacity 0.3s 0.3s;
+}
+
+/* Let's Delete some nice easing for all cases */
+.morph-buttonDelete .morph-content,
+.morph-buttonDelete.open .morph-content,
+.morph-button-modal-4 .morph-clone {
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 600px) {
+	.morph-button-modalDelete.open .morph-content {
+		top: 0% !important;
+		left: 0% !important;
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		overflow-y: scroll;
+		-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+		transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.morph-button-fixedDelete,
+	.morph-button-fixedDelete .morph-content {
+		width: 200px;
+		height: 80px;
+	}
+
+	.morph-button-fixedDelete > button {
+		font-size: 75%;
+	}
+
+}	
+	

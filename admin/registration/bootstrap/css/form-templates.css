@@ -1,0 +1,65 @@
+
+body {
+  background-image: url("../img/backgrounds/bgimage.png");
+  background-size:cover;
+}
+  
+   button.admin_button {
+    margin: 0;
+    vertical-align: middle;
+    background: #0f9bcc;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 4px; 
+}
+
+  input.form-control {
+    outline: 0;
+    box-shadow: none;
+    background:#ffffff;
+    border: 1px solid #ddd;
+
+  }
+
+  button.admin_button:hover { opacity: 0.6; color: #fff; background:#0f9bcc; }
+
+  button.admin_button:active { outline: 0; opacity: 0.6; color: #ffffff; background:#0f9bcc; }
+
+  button.admin_button:focus { outline: 0; opacity: 0.6;color: #ffffff; background:#0f9bcc;}
+
+  button.admin_button:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; color: #ffffff; }
+
+.form-body {
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.container {
+  position: relative;
+  background-color: #ffffff;
+  width: auto;
+  margin: 100px 300px; 
+  /*add a drop shadow to the frame*/
+  -webkit-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+  -moz-box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+  box-shadow: 0 0 6px rgba(132, 132, 132, .75);
+  border-radius: 5px
+}
+
+.top_panel {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.fl-right {
+  padding: 5px 0px;
+  float: right;
+}
+
+.no-padding-right{
+  padding-right:0!important
+}
+

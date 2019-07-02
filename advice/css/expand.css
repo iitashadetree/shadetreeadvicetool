@@ -1,0 +1,47 @@
+/*css editor find more*/
+#toggle		{font-family:Verdana, Geneva, sans-serif; width:96%; margin:0px; margin-left:0px; background-color: gray; border: 0px solid;
+    border-radius: 5px; }
+#toggle		ul{font-family:Verdana, Geneva, sans-serif; width:100%; float:left; height:auto; margin-left:-40px; }
+#toggle		li:hover{ color: red;}
+#toggle		li{font-family:Verdana, Geneva, sans-serif; list-style-type:none;color:white; float: left;width: 100%;cursor:pointer; mrgin:0px; pdding:10px; mrgin-top:-10px;}
+#toggle		ul div{font-family: fantasy; color: #666666; cursor: auto; display: none; font-size: 12px; padding: 5px 0 5px 20px; text-decoration: none; }
+#toggle		ul div a{color:white; font-weight:normal;}
+#toggle		ul div a:hover{color: red; }
+#toggle     li div:hover{ color: red;}
+#toggle		li:before {content: "+"; padding:1px 1px 0px 10; color:red; font-weight:normal;width:100%;}
+#toggle		li.active:before {content: "-"; padding:10px 10px 10px 0; color:red; font-size:11px; font-weight:normal;}
+input[type=text],input[type=password]{
+width:90%;
+height: 4%;
+padding: 2px;
+margin-top: 8px;
+border: 1px solid #ccc;
+padding-left: 5px;
+font-size: 11px;
+font-family:raleway;
+border-radius: 5px;
+font-family:Verdana, Geneva, sans-serif;
+font-size: 12px;
+color: #2F0BFC;
+} 
+label{
+    color: #D07806;
+    font-size: 12px;
+}
+
+input[type=submit]{
+width: 90px;
+background-color:#E5FC80;
+color: #656563;
+border: 2px solid #FFCB00;
+padding: 4px;
+font-size:12px;
+cursor:pointer;
+border-radius: 5px;
+margin-top: 5px;
+margin-bottom: 15px;
+float: center;
+}	
+
+/* CSS Document */
+

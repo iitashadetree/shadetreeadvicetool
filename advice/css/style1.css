@@ -1,0 +1,149 @@
+    .container select {
+  background: transparent;
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url(../images/drop.png) no-repeat right #ddd;
+   border: 1px solid #ccc;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    margin-bottom: 3%;
+   }
+
+.container  label   {
+    font-size: 0.9em;
+    line-height: 32px;
+
+}
+
+*,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+    }
+
+
+     .container select option{
+        position: absolute;
+        top:10px;
+    border: 1px solid #B9B9B9;
+    background: transparent;
+    text-shadow:0 1px 0 rgba(0,0,0,0.4);
+
+        
+    }
+     .container  option:hover{
+        background: red;
+        color: #D9D9D9;
+    }
+
+    .container legend {
+        clor: gray;
+        fnt-size: 13px;
+        font-family:'Pathway Gothic One', sans-serif;
+    }
+    .container fieldset {
+        border: 0px;
+     
+        width: 370px;
+        bckground:pink;
+        height: auto;
+        margin-bottom: 20px;
+  
+    }
+
+    .alright{
+      float: left;
+        mrgin-left:-127px;
+        bckground: pink;
+        width: 440px;
+
+    }
+    .alright2{
+        margin-left:-127px;
+        background: pink;
+        width: 440px;
+
+    }
+
+.middleContent label{margin-left: 10px;font-weight: bold;}
+
+
+h3{color:#0D0D0D;}
+
+    .alright input[type="submit"]{
+        float:right;
+    pdding:5px 25px; /*add some padding to the inside of the button*/
+    bckground:#076602; /*the colour of the button*/
+       background: -webkit-gradient(linear, left top, left bottom, from(#50BC5B), to(#076602));
+    background: -webkit-linear-gradient(top, #50BC5B, #076602);
+    background: -moz-linear-gradient(top, #50BC5B, #076602);
+    background: -o-linear-gradient(top, #50BC5B, #076602);
+    background: linear-gradient(top, #50BC5B, #076602);
+    /*style to the text inside the button*/
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    padding:0px;
+    ltter-spacing:.1em;
+    border: 0px solid #fff;
+    /*give the corners a small curve*/
+    -webkit-border-radius: 10px 15px 15px 10px;
+    -moz-border-radius: 10px  15px 15px 10px;
+    /*add a drop shadow to the button*/
+    -webkit-box-shadow: rgba(3, 3, 3, .75) 0 2px 6px;
+    -moz-box-shadow: rgba(3, 3, 3, .75) 0 2px 6px;
+    box-shadow: rgba(3, 3, 3, .75) 0 2px 6px;
+  text-decoration: none;
+  width:120px;      
+       cursor: pointer;
+       margin-bottom: 3px;
+    }
+
+        .alright2 input[type="submit"]{
+        float:left;
+    pdding:5px 25px; /*add some padding to the inside of the button*/
+    background:#076602; /*the colour of the button*/
+       background: -webkit-gradient(linear, left top, left bottom, from(#50BC5B), to(#076602));
+    background: -webkit-linear-gradient(top, #50BC5B, #076602);
+    background: -moz-linear-gradient(top, #50BC5B, #076602);
+    background: -o-linear-gradient(top, #50BC5B, #076602);
+    background: linear-gradient(top, #50BC5B, #076602);
+    /*style to the text inside the button*/
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif; 
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+    padding:0px;
+    ltter-spacing:.1em;
+    border: 0px solid #fff;
+
+    /*give the corners a small curve*/
+    -webkit-border-radius: 10px 15px 15px 10px;
+    -moz-border-radius: 10px  15px 15px 10px;
+    /*add a drop shadow to the button*/
+    -webkit-box-shadow: rgba(3, 3, 3, .75) 0 2px 6px;
+    -moz-box-shadow: rgba(3, 3, 3, .75) 0 2px 6px;
+    box-shadow: rgba(3, 3, 3, .75) 0 2px 6px;
+  text-decoration: none;
+  width:120px;      
+       cursor: pointer;
+       margin-left: 399px;
+       margin-top: -51px;
+    }
+
+
+.alright input[type="submit"]:hover{
+      bckground:pink;
+      background:#076602;
+
+      text-decoration: none;
+    }
+.alright2 input[type="submit"]:hover{
+      background:#177915;
+
+      text-decoration: none;
+    }
+    
