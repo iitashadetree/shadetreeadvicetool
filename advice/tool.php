@@ -17,7 +17,7 @@ require "../config/connection.php"; // Your Database details
 <?php include '../contact/feedbacklinks2.php'; ?>
 </head>
 <body>
-<!--start-home-->
+<!--start-home and first Upload to gitHub 08-07-2019-->
   <div class="headerCotent" style="height:62px;bckground:red;z-index:99999;position:absolute;padding:5px;">
         <div id="headerContainer">
                     <a href='../index.php'><img src="images/logo_white.png" alt="Shade Tool Logo" height="52" width="64"/>
