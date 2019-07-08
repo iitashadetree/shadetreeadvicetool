@@ -92,7 +92,7 @@ require "../config/connection.php"; // Your Database details
 						            	<ol>
 						            		<li>
 						            			Laurence Jassogne: 
-						            			<a href="https://be.linkedin.com/pub/laurence-t-p-jassogne/13/7a6/801">LinkedIn</a>, 
+						            			<a href="https://be.linkedin.com/pub/laurence-t-p-jassogne/13/7a6/801" target = "_blank">LinkedIn</a>, 
 						            			<a href="https://www.researchgate.net/profile/Laurence_Jassogne">ResearchGate</a>, 
 						            			<a href="http://www.iita.org/staff-crp/-/asset_publisher/Wg6T/content/jassogne-laurence?redirect=%2Fstaff-crp%2F-%2Fasset_publisher%2FZ9e1%2Fcontent%2Fyade-mbaye%3Fredirect%3D%252Fstaff-crp">IITA</a>
 						            		</li>

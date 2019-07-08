@@ -1,4 +1,4 @@
-<?php
+ <?php
 require "../config/connection.php"; // Your Database details 
 ?>
 <!DOCTYPE HTML>
@@ -29,6 +29,7 @@ require "../config/connection.php"; // Your Database details
 <body>
   
 <!--start-home-->
+
   <div class="headerCotent" style="height:62px;bckground:red;z-index:99999;position:absolute;padding:5px;">
         <div id="headerContainer">
                     <a href=../index.php><img src="images/logo_white.png" alt="Shade Tool Logo" height="52" width="64"/>
@@ -58,8 +59,9 @@ require "../config/connection.php"; // Your Database details
                          </div>
                         <div  id="divPageData" style="overflow:scroll;"></div>
                       </div><!-- @end #country-content -->
+                      
                   </div><!-- @end #content -->
-            
+       
          
             <img src='images/icon_treelibrary.png' height='52' width='52' style='top: 6%;left: 92%;position: absolute;' />
             </div>

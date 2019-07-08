@@ -1,5 +1,5 @@
 <?Php
-include ("base.php");
+// include ("config/config.php");
 
 ///////// Getting the data from Mysql table for first list box//////////
 $quer2="SELECT DISTINCT country FROM estimate_stderror order by country asc"; 
