@@ -1,0 +1,21 @@
+{
+  "short_name": "Shade Tree Tool",
+  "name": "Shade Tree Advice Tool",
+  "icons": [
+    {
+      "src": "image/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "image/icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://shadetreeadvicetool.000webhostapp.com/index.php",
+  "background_color": "#008000",
+  "display": "standalone",
+  
+  "theme_color": "#fff"
+}

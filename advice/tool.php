@@ -1,65 +1,76 @@
 <?php
-
 require "../config/connection.php"; // Your Database details 
 ?>
+
 <!DOCTYPE HTML>
 <html>
 <head>
 <title>Shade tree advice</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="icon" type="image/png" href="../image/favicon2.ico">
+<link rel="icon" type="image/png" href="image/favicon2.ico">
 <script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" type="text/css" media="all" href="css/style1.css" />
-<link rel="stylesheet" href="css/font-awesome.min.css">
 
-<?php include '../contact/feedbacklinks2.php'; ?>
+<style>
+body { height:100%; margin-top:5px; margin-bottom:15px;}
+.item1 { grid-area: header; height:auto;}
+.item2 { grid-area: main; width:100%; height:auto;}
+.item3 { grid-area: footer; height:30px;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px; 
+  padding: 5px;
+  text-align: center;
+  
+ 
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+</style>
+
 </head>
-<body>
-<!--start-home and first Upload to gitHub 08-07-2019-->
-  <div class="headerCotent" style="height:62px;bckground:red;z-index:99999;position:absolute;padding:5px;">
-        <div id="headerContainer">
-                    <a href='../index.php'><img src="images/logo_white.png" alt="Shade Tool Logo" height="52" width="64"/>
-                    <span class="headerTitle" style="width:100%;min-width:680px;height:auto;">Shade tree advice tool</span></a>
-        </div>
-</div>
 
-			 <div class="container" style="z-index:999999999;background:url(images/cont_bg.png); margin-top: 40px;min-height:380px;width:48%;min-width:875px;margin: auto;  position: absolute;  top: 15%; bottom:15%;left: 0; right: 0;">			        	
-						<div class="leftContent"><a href= "../index.php" ><i class="fa fa-angle-left" style="float:left;top: -4px;left: -120px;brder:1px solid red;"></i></a></div>
-          	<div class="middleContent" ><?php   include ("form_selector.php");  ?></div>
-						<div class="rightContent" style="position: absolute;top: 22px;left: 803px;"><img src='images/icon_tool.png' height='52' width='52' style='margin-right: 20px;' /></div>
-	          </div>
-</div>	
+<body style="background-image: url('images/Tree_background.jpg');">
 
-<?php include '../contact/feedback.php'; ?>
+<div class="grid-container">
+ <div class="item1" style="color:white; background-color:#E87F34"><a href="../index.php" style="color:white; text-decoration:none; font-size: 20px; font-weight: bold">Shade Tree Advice Tool</a></div>
+  <div class="item2">	
+	<a href= "../index.php" ><img src="images/gobck.png" style="padding-right:300px;"></a>
+          	<?php   include ("form_selectorTWO.php");  ?>				
+	</div>
+	
+	<div class="item3" style="color:white; background-color:#E87F34;>
+	<a href="http://www.ccafs.in/" target="_blank"><img src="images/CCAFS.png" alt="CCAFS Logo" height="30"/></a>
+	<a href="http://iita.org/" target="_blank"><img src="images/IITA_logo.png" alt="IITA Logo" height="30" /></a>
+	<a href="http://metajua.com/"  target="_blank"><img src="images/Metajua.png" alt="Metajua Logo" height="30"/></a>
+	<a href="http://www.worldagroforestry.org/" target="_blank"><img src="images/ICRAF.png" alt="ICRAF Logo" height="30" /></a>
+	<a href="http://foreststreesagroforestry.org/ "target="_blank"><img src="images/FTA.png" alt="FTA Logo" height="30"/></a>
+	<a href="admin/login.php" target="_blank"><img src="images/icon_admin.png" alt="IITA admin Logo" height="30" /></a>
+	</div>
+  </div>  
 
-<?php include 'footer.php'; ?>
+<script>  
+function validateform(){  
+var country=document.f1.country.value;  
+var region=document.f1.region.value;  
+  
+if (country=="" || region==""){  
+  alert("Name can't be blank");  
+  return false;  
+}  
+}  
+</script> 
 
-
-
-<SCRIPT language=JavaScript>
-function reload(form)
-{
-var val=form.country.options[form.country.options.selectedIndex].value; 
-self.location='tool.php?country=' + val ;
-}
-function reload3(form)
-{
-var val=form.country.options[form.country.options.selectedIndex].value; 
-var val2=form.region.options[form.region.options.selectedIndex].value; 
-
-self.location='tool.php?country=' + val + '&region=' + val2 ;
-}
-
-function reload4(form)
-{
-var val=form.country.options[form.country.options.selectedIndex].value; 
-var val2=form.region.options[form.region.options.selectedIndex].value; 
-var val3=form.crop.options[form.crop.options.selectedIndex].value; 
-
-self.location='tool.php?country=' + val + '&region=' + val2 + '&crop=' + val3 ;
-}
-</script>
+<!--<script src="../js../main.js"></script>-->
 </body>
 </html>

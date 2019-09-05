@@ -208,8 +208,7 @@ include ("attribute_functions.php");
                     <!DOCTYPE html>
                     <html lang="en">
                       <head>
-                        <meta charset="utf-8">
-                        <title>Shade tree advice</title>
+<title>Shade tree advice</title>
 
                         <SCRIPT language=JavaScript>
                         function reload(form)
@@ -221,17 +220,11 @@ include ("attribute_functions.php");
 
                         </script>
                             <meta name="viewport" content="width=device-width, initial-scale=1">
-                            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                        <!--    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
                             <link rel="icon" type="image/png" href="../image/favicon2.ico">
                             <script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
                             
-                            <!-- Custom Theme files -->
-                            <link href="css/style.css" rel='stylesheet' type='text/css' />                   
-                            <!--webfonts-->
-                            <link rel="stylesheet" href="css/font-awesome.min.css">
-                     
-                     
-                            <link rel="stylesheet" href="stdError/style.css" type="text/css">
+                           
                             <script src="stderror/amcharts.js" type="text/javascript"></script>
                             <script src="stderror/serial.js" type="text/javascript"></script>
                             <script>
@@ -639,52 +632,83 @@ include ("attribute_functions.php");
 
                             </script>
                             <?php include '../contact/feedbacklinks2.php'; ?>
-                    </head>
-                    <body>
+<style>
+body { height:auto; margin-top:5px; margin-bottom:5px;}
+.item1 { grid-area: header; height:auto;}
+.itemA { grid-area: header; height:auto;}
+.item2 { grid-area: main;}
+.itemB { grid-area: main; width:100%; height:auto; }
+.item3 { grid-area: footer; height:auto;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+	'header header header header header header'
+    'main main main main main main'
+	'main main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px; 
+
+  padding: 5px;
+  text-align: center;
+  
+ 
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px 0;
+  font-size: 30px;
+}
+
+</style>
+</head>
+<body style="background-image: url('images/Tree_background.jpg');">
+
+<div class="grid-container">
+					
 <!--start-home-->
-  <div class="headerCotent" style="height:60px;padding-top:5px;bckground:red;z-index:99999;position:absolute;top:0px;">
-        <div id="headerContainer" style="padding-left:29px;">
-                    <a href=../index.php><img src="images/logo_white.png" alt="Shade Tool Logo" height="52" width="64"/>
-                    <span class="headerTitle" style="width:100%;min-width:680px;height:auto;">Shade tree advice tool</span></a>
-        </div>
-</div>
-                                  
-                                  <div class="leftContent" style="position:fixed;top:97px;left:123px; z-index:9999999999"><a href="javascript:history.go(-1)" 
-                                    title="Return to the previous page"><i class="fa fa-angle-left" style="float:left;top: -10px;left: -30px;"></i></a></div>
-                    <h3></h3>
-                                  <div class="container" style="z-index:999999999;overflow:scroll;height:100px;position:absolute;background:url(images/cont_bg.png);top: 15%;min-height: 485px;
-                                  left:15.8%;width:47%;min-width:875px;">  
-                                        <h3><span style="margin-top: 5%;margin-left: 94px;float: left;margin-bottom: 12px;"> 
-                                            <h2>Advice scores for shade trees</h2>
-                                            <?php echo $country.' > '.$region.' > '.$crop.' > '.$subgroup.'<p></p>'; ?></span></h3>
-                                              
-                                              <style>
-                                              
-                                              h2{text-align: center;padding-bottom: 10px;}
-                                              #chartLegend{float:left;width:100%;background:#999;text-align: center;padding: 3px;font-size: 18px;font-weight: bold;color:#222;}
-                                              #advice{display:none;position: absolute;background: #4C9ED9;width: 100%;height: 100px;margin-left: -18px;top: 22%;opacity: 0.3;}
-                                              #adviceToolTip{margin-bottom: 16px;border-radius: 5%;top: 15%;float:left;background: none;oacity:0.1;width: 72.1%;margin-left: 24%;min-height:150px;height: 30%;right: 0.5%;mrgin-top: 40px;box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);}
-                                              #treeClicks{float:left;bckground: #999999;text-align: left;width: 100%;margin-bottom: 4px;font-size: 15px;}
-                                              #treeClicks a{color: #0000CC;padding:2px;lne-height: 2.5em;bckground: aqua;}
-                                              #treeClicks a:hover{color: #E87F34;}
-                                              #treeLinks{padding: 5px;position:absolute;wdth:20%;bckground: pink;mrgin-top: 27px;hight: 778px;}
-                                              .adviceTitle{background: #E87F34;color: #fff;padding:3px;text-align: center;font-size: 20px;}
-    }
-                                              </style>
+   <div class="item1" style="color:white; background-color:#E87F34">
+   <a href="../index.php" style="color:white; text-decoration:none; font-size: 20px; font-weight: bold">Shade Tree Advice Tool</a>
+   </div>
+   
+   <div class="item2">	
+		<div class="itemA" style="grid-area: header; height:auto;background-color:white; padding:10px; font-size:16px; 
+ font-family: Verdana, Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+ margin-bottom:15px;">
+		
+		<h4 style="color:#E87F34; line-height:1.7em;">Advice scores for shade trees</h4>
+		
+		<h5>    <?php echo $country.' > '.$region.' > '.$crop.' > '.$subgroup.'<p></p>'; ?></h5>
+		
+		</div>  
+		<a href= "../index.php" ><img src="images/gobck.png" title = "Go back to home" style="padding-right:20%;"></a> 		
+		<style>
+		h2{text-align: center;padding-bottom: 10px;}
+		#chartLegend{float:center;width:100%;background:#999;text-align: center;padding: 3px;font-size: 16px;color:#222;}
+		#advice{display:none;background: #4C9ED9;width: 100%;height: auto;margin-left: -18px;top: 22%;opacity: 0.3;}
+		#adviceToolTip{width:100%; height:auto;text-align:center font-size:16px;
+		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); line-height:16px;}
+		#treeClicks{bckground: #999999;text-align: center;font-size: 15px;}
+		#treeClicks a{color: #0000CC;padding:2px;line-height: 2px;bckground: aqua;}
+		#treeClicks a:hover{color: #E87F34;}
+		#treeLinks{ line-height:.6em; padding-bottom:16px; text-align:center;}
+		
+		.adviceTitle{background: #E87F34;color: #fff;padding:5px;text-align: center;font-size: 16px;}
+		}
+		</style>
+		
+		<div id="chartdiv" style="width:85%; height:700px; display:inline-block; title="Advice scores for the different trees calculated from the selected and weighted attributes. The higher up the tree, the better it should fit your needs!">
+		
+		</div>
+		
 
-                            
-                            <div id="advice"></div>
-
-                            <div id="chartdiv" style="width: 88%; margin-left:90px;height: 850px;mrgin-bottom:40px" title="Advice scores for the different trees calculated from the selected and weighted attributes. The higher up the tree, the better it should fit your needs!"></div>
-            
-                                      
-                                  
-
-                                  <div id="adviceToolTip">
-                                <h2><p class="adviceTitle">Click to view Advised Top 4 Shade Trees details</p></h2>
-                                <div id="treeLinks">
+<div id="adviceToolTip">
+<h5><p class="adviceTitle">Click to view Advised Top 4 Shade Trees details</p></h5>
+<div id="treeLinks">
                                  <?php 
-                                        $country=$_POST['country'];
+$country=$_POST['country'];
 $region=$_POST['region'];
 $crop=$_POST['crop'];
 $subgroup=$_POST['subgroup'];
@@ -878,103 +902,37 @@ include ("attribute_functions.php");
                         $tree2 = $row2['tree'];
                         
                        
-                              echo '<span id="treeClicks">'.'<a href="#">'.$tree2.'</a>'.'</span>'.'<br>' ;
+                              echo '<span id="treeClicks">'.'<a href="https://www.iita.org/iita-countries/uganda/" target="_blank">'.$tree2.'</a>'.'</span>'.'<br>' ;
                          
                     }   
                                         ?>
-                            </div>
-
-                            
-
-
+                            </div>                           
                             </div><!--end of adviceToolTip-->
-                            </div>
+                          
                    
-                    <?php include '../contact/feedback.php'; ?>
-                    
-                    <div class="copy" style="margin-top: 40px;width:100%;mn-width:1280px;position:fixed;bottom:0;margin-left:0;height:50px;">
-                    <div id="copyCotents">
-                        <div class="footerCotenets"><a href="http://www.ccafs.in/"><img src="images/CCAFS.png" alt="CCAFS Logo" height="50" /></a></div>
-                        <div class="footerCotenets"><a href="http://iita.org/"><img src="images/IITA_logo.png" alt="IITA Logo" height="50" /></a></div>
-                        <div class="footerCotenets">Powered by</br> <a href="http://wwww.mymetajua.com/"><img src="images/Metajua.png" alt="Metajua Logo" height="30" /><span class="aCopy">&copy; 2013 | Bugolobi</span></a></div>   
-                        <div class="footerCotenets"><a href="http://www.worldagroforestry.org/"><img src="images/ICRAF.png" alt="ICRAF Logo" height="50" /></a></div>
-                        <div class="footerCotenets" style="bckground:orange;margin-top: 10px;"><a href="http://foreststreesagroforestry.org/"><img src="images/FTA.png" alt="FTA Logo" height="30"  /></a></div>
-                        <div class="footerCotenets" style="bckground:orange;margin-right:0px;"><a href="../admin/index.php"><img src="images/icon_admin.png" alt="IITA admin Logo" height="50" /></a></div>    
-                        </div>
-                    </div><!--footer--> 
-                
-                    </body>
-                    </html>
+    
+	
+<div class="item3" style="color:white; background-color:#E87F34; padding-top:10px; margin-bottom:0px;">
+<a href="http://www.ccafs.in/" target="_blank"><img src="images/CCAFS.png" alt="CCAFS Logo" height="30"/></a>
+<a href="http://iita.org/" target="_blank"><img src="images/IITA_logo.png" alt="IITA Logo" height="30" /></a>
+<a href="http://metajua.com/"  target="_blank"><img src="images/Metajua.png" alt="Metajua Logo" height="30"/></a>
+<a href="http://www.worldagroforestry.org/" target="_blank"><img src="images/ICRAF.png" alt="ICRAF Logo" height="30" /></a>
+<a href="http://foreststreesagroforestry.org/ "target="_blank"><img src="images/FTA.png" alt="FTA Logo" height="30"/></a>
+<a href="admin/login.php" target="_blank"><img src="images/icon_admin.png" alt="IITA admin Logo" height="30" /></a>
+
+</div><!--footer -->
+
+</div>
+   
+
+<!-- <script src="..js/main.js"></script> -->  
+</body>
+					
+</html>
 <?php
              }else{
 ?>
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Shade tree advice</title>
-
-        <SCRIPT language=JavaScript>
-        function reload(form)
-        {
-        var val=form.cat.options[form.cat.options.selectedIndex].value;
-
-        self.location='dd-check.php?cat=' + val ;
-        }
-
-        </script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="icon" type="image/png" href="../image/favicon2.ico">
-<script type="applijegleryion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />  
-<link rel="stylesheet" type="text/css" media="all" href="css/style1.css" />
-<link rel="stylesheet" href="css/font-awesome.min.css">
-
-<?php include '../contact/feedbacklinks2.php'; ?>
-</head>
-<body>
-<!--start-home-->
-  <div class="headerCotent" style="height:62px;bckground:red;z-index:99999;position:absolute;padding:5px;">
-        <div id="headerContainer">
-                    <a href=../index.php><img src="images/logo_white.png" alt="Shade Tool Logo" height="52" width="64"/>
-                    <span class="headerTitle" style="width:100%;min-width:680px;height:auto;">Shade tree advice tool</span></a>
-        </div>
-</div>
-
-       <div class="container" <div class="container" style="z-index:999999999;background:url(images/cont_bg.png); margin-top: 40px;min-height:460px;width:48%;min-width:875px;margin: auto;  position: absolute;  top: 15%; bottom:15%;left: 0; right: 0;">                               
-                            <h3><span style="position: relative;top:7px;left: 95px;" > <?php echo $country.' > '.$region.' > '.$crop.' > '.$subgroup.'<p></p>'; ?></span></h3>                    
-                                                    
-                        <div class="leftContent"><a href="tool.php" title="Return to the previous page"><i class="fa fa-angle-left" 
-                            style="float:left;top: -51px;left: -120px;"></i></a></div>
-                        <div class="middleContent" style="margin-top: 78px;width: 52%;"><?php
-                         echo '<span style="color:red;top:47px;position:absolute;left:153px;bckground:pink;">';   
-                         echo '*Duplicate attributes are not allowed' ;
-                         echo '</span>';?>
-                        <form method="post" action="result.php" id="attribute" name="attribute">
-                        <fieldset style="min-height: 307px;width:100%;">
-                        <?php include ("form_selector2.php");  ?></div>
-                        <div class="rightContent" style="position: relative;top: -28px;left:172px;"><img src='images/icon_tool.png' height='52' width='52' style='margin-right: 20px;' /></div>
-              </div>
- 
-<?php include '../contact/feedback.php'; ?>
-
-<div class="copy" style="margin-top: 35px;width:100%;mn-width:1280px;position:fixed;bottom:0;margin-left:0;">
-<div id="copyCotents">
-    <div class="footerCotenets"><a href="http://www.ccafs.in/"><img src="images/CCAFS.png" alt="CCAFS Logo" height="50" /></a></div>
-    <div class="footerCotenets"><a href="http://iita.org/"><img src="images/IITA_logo.png" alt="IITA Logo" height="50" /></a></div>
-    <div class="footerCotenets">Powered by</br> <a href="http://wwww.mymetajua.com/"><img src="images/Metajua.png" alt="Metajua Logo" height="30" /><span class="aCopy">&copy; 2013 | Bugolobi</span></a></div>   
-    <div class="footerCotenets"><a href="http://www.worldagroforestry.org/"><img src="images/ICRAF.png" alt="ICRAF Logo" height="50" /></a></div>
-    <div class="footerCotenets" style="bckground:orange;margin-top: 10px;"><a href="http://foreststreesagroforestry.org/"><img src="images/FTA.png" alt="FTA Logo" height="30"  /></a></div>
-    <div class="footerCotenets" style="bckground:orange;margin-right:0px;"><a href="../admin/index.php"><img src="images/icon_admin.png" alt="IITA admin Logo" height="50" /></a></div>    
-    </div>
-</div><!--footer--> 
-
-</body>
-</html>
-
-               
+              
 <?php
             }
          // }

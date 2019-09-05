@@ -116,12 +116,12 @@ top:155px;
 left:850px;
 }
 
-#student_wrap{
-width:650px;
+.student_wrap{
+width:100%;
 brder:1px solid #e75854;
 border-radius:4px;
 overflow: hidden;
-background:#fff;
+background:red;
 }
  
  #students th{

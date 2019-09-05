@@ -199,8 +199,8 @@ $result = $obj->result;
 <div id="page_contents" >
      
   
-    <div id="student_wrap">   
-    <table  id="students"  width="100%"  >
+    <div class="student_wrap">   
+    <table  id="students"  width="100%"  height="auto">
       <tr>
         <th><span id="id2">S/No</span> <span id="Latin_family">Latin family</span> <span id="Latin_species">Latin species</span> <span id="Name_english">Name english</span></th>
       </tr>
@@ -277,7 +277,7 @@ $result = $obj->result;
           .gallery{float:left;background: pink;}
           #treeTitle{float:left;bckground: pink;mrgin-top: -30px;fnt-weight: bold;font-size: 24px;padding: 2px;color: #666;}
           #id{width:6.5%;color:#333;font-weight:normal;bckground: pink;float: left;text-align: left;}
-          #Latin_family{width:20%;color:#333;font-weight:normal;bckground: grey;float: left;text-align: left;}
+          #Latin_family{width:20%;color:#333;font-weight:normal;bckground: grey;float: left; text-align: left;}
           #Latin_species{width:30.6%;color:#333;font-weight:normal;bckground: green;float: left;text-align: left;}
           #Name_english{width:42%;color:#333;font-weight:normal;bckground: aqua;float: left;text-align: left;}
           #id2{width:6.5%;color:#333;font-weight:normal;bckground: pink;float: left;text-align: left;margin-left: 5px;}
@@ -288,14 +288,14 @@ $result = $obj->result;
           table th #Latin_species{font-size: 14px;font-weight: bold;width:29.7%;}
           table th #Name_english{font-size: 14px;font-weight: bold;}
 
-          table td{bckground: blue}
+          table td{bckground: blue; height:auto}
 
 
 
           
 
 
-          table{position: absolute;min-width:330px;}
+          table{height:auto; width:100%}
           .answers{bckground:red;margin-left: -30px;}
           .TreeSubHeading{float:left;color: blue;background:#D7E2E5;width: 100%;text-transform: uppercase;}
 

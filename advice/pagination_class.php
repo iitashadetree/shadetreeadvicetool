@@ -74,7 +74,7 @@ class Pagination_class{
 			$anc .= "</ul>";
 		$this->anchors = $anc;
 		
-		$this->total = "Page : $page_showing <i> Of   </i> $total_page . Total Records Found: $numrows";
+	//	$this->total = "Page : $page_showing <i> Of   </i> $total_page . Total Records Found: $numrows";
 	}
 }
 ?>
